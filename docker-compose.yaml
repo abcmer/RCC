@@ -1,0 +1,23 @@
+version: '3'
+services:
+  web:
+    container_name: hotdogs-web
+    build: ./web
+    ports:
+      - "80:80"
+  server:
+    depends_on:
+      - mongo
+    container_name: hotdogs-server
+    build: ./server
+    ports:
+      - "5000:5000"
+  mongo:
+    image: "mongo"
+    container_name: "hotdogs-mongo"
+    ports:
+      - "27017:27017"
+    volumes:
+    - data-volume:/data/db
+volumes:
+  data-volume:
