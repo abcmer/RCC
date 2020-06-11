@@ -2,6 +2,7 @@ version: '3'
 services:
   client:
     container_name: hotdogs-client
+    image: hotdogs-client
     build: ./client
     ports:
       - "80:80"
@@ -9,6 +10,7 @@ services:
     depends_on:
       - mongo
     container_name: hotdogs-server
+    image: hotdogs-server
     build: ./server
     ports:
       - "5000:5000"
