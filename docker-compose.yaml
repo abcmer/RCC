@@ -1,8 +1,8 @@
 version: '3'
 services:
-  web:
-    container_name: hotdogs-web
-    build: ./web
+  client:
+    container_name: hotdogs-client
+    build: ./client
     ports:
       - "80:80"
   server:
