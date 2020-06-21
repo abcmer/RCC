@@ -6,7 +6,7 @@ spec:
   rules:
   - http:
       paths:
-      - path: /api/
+      - path: /api
         backend:
           serviceName: server-cluster-ip-service
           servicePort: 5000
