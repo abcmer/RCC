@@ -1,8 +1,11 @@
-require('dotenv').config()
-
-const config = {
-  'backendApiHost': process.env.BACKEND_API_HOST || 'http://localhost:5000'
+let apiUrl
+if (window.location.origin == 'http://localhost') {
+  apiUrl = `${window.location.origin}:5000`
+} else {
+  apiUrl = window.location.origin
 }
-console.log(config)
+const config = {
+  apiUrl
+}
 
 export default config
