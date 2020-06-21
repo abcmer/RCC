@@ -2,10 +2,12 @@ import React, {useState, useEffect} from 'react';
 import axios from 'axios';
 import './App.css';
 
+import config from './config'
+
 const App = () => {
   const [joints, setJoints] = useState([])
   const fetchJointsData = async () => {
-    const response = await axios.get(`http://localhost:5000/api/joints`)
+    const response = await axios.get(`${config.backendApiHost}/api/joints`)
     setJoints(response.data)
   }
 
