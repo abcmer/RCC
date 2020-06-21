@@ -12,6 +12,7 @@ const app = express();
 app.use(cors())
 
 const port = process.env.PORT || 5000;
+console.log('DB:', process.env.DB)
 
 //connect to the database
 mongoose.connect(process.env.DB, { useNewUrlParser: true })
