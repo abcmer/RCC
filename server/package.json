@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abcmer/hotdogs.git"
+    "url": "git+https://github.com/abcmer/oscars-club.git"
   },
   "dependencies": {
     "@material-ui/icons": "^4.9.1",
@@ -28,7 +28,7 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/abcmer/hotdogs/issues"
+    "url": "https://github.com/abcmer/oscars-club/issues"
   },
-  "homepage": "https://github.com/abcmer/hotdogs#readme"
+  "homepage": "https://github.com/abcmer/oscars-club#readme"
 }
