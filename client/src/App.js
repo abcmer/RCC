@@ -12,8 +12,8 @@ import 'ag-grid-community/dist/styles/ag-theme-alpine-dark.css';
 const App = () => {
   const [movies, setMovies] = useState([])
   const [columnDefs] = useState([
-    { headerName: "Film Title", field: "title", sortable: true, filter: true },
-    { headerName: "Award Show Year", field: "awardShowYear", sortable: true, filter: true },
+    { headerName: "Film Title", field: "title", sortable: true, filter: true, checkboxSelection: true },
+    { headerName: "Award Show Year", field: "awardShowYear", sortable: true, filter: 'agNumberColumnFilter' },
   ])
   const fetchMoviesData = async () => {
     const response = await axios.get(`${config.apiUrl}/api/movies`)
@@ -28,6 +28,7 @@ const App = () => {
     <div className="ag-theme-alpine-dark" style={ {height: window.innerHeight, width: window.innerWidth} }>
       <AgGridReact
         columnDefs={columnDefs}
+        rowSelection='multiple'
         rowData={movies}>
       </AgGridReact>
     </div>
