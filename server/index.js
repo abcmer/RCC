@@ -1,11 +1,12 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-// const mongoose = require('mongoose');
 const routes = require('./routes/api');
 const mongoose = require('mongoose');
 const path = require('path');
 require('dotenv').config();
 var cors = require('cors')
+const movieSeedData = require('./seed-data/movies.json')
+const Movie = require('./models/movie')
 
 const app = express();
 
@@ -16,7 +17,18 @@ console.log('DB:', process.env.DB)
 
 //connect to the database
 mongoose.connect(process.env.DB, { useNewUrlParser: true })
-  .then(() => console.log(`Database connected successfully`))
+  .then(() => {
+    console.log(`Database connected successfully`)
+    console.log('seeding database with movies')
+    movieSeedData.forEach(movie => {
+      Movie.findOneAndUpdate(movie, movie, {
+        new: true,
+        upsert: true
+      })
+      .then(data => console.log(`seeded ${data}`))
+      .catch(error => console.log(error))
+    })
+  })
   .catch(err => console.log(err));
 
 //since mongoose promise is depreciated, we overide it with node's promise

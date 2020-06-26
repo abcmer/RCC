@@ -8,6 +8,7 @@ const App = () => {
   const [movies, setMovies] = useState([])
   const fetchMoviesData = async () => {
     const response = await axios.get(`${config.apiUrl}/api/movies`)
+    console.log(response.data)
     setMovies(response.data)
   }
 
@@ -17,7 +18,7 @@ const App = () => {
 
   return(
     <div>
-      {movies.map(j => <h1 key={j._id}>{j.name}</h1>)}
+      {movies.map(m => <h1 key={m._id}>{m.title} - {m.awardShowYear}</h1>)}
     </div>
   )
 }
