@@ -1,6 +1,6 @@
 let apiUrl
-if (window.location.origin == 'http://localhost') {
-  apiUrl = `${window.location.origin}:5000`
+if (window.location.origin.startsWith('http://localhost')) {
+  apiUrl = `http://localhost:5000`
 } else {
   apiUrl = window.location.origin
 }
