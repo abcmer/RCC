@@ -1,19 +1,19 @@
 const express = require ('express');
 const router = express.Router();
-const Joint = require('../models/joint')
+const Movie = require('../models/movie')
 
 router.get('/', (req, res, next) => {
   res.json({"msg": "Hello World"})
 });
 
-router.post('/joints', (req, res, next) => {
-  Joint.create(req.body)
+router.post('/movies', (req, res, next) => {
+  Movie.create(req.body)
     .then(data => res.json(data))
     .catch(next)
 })
 
-router.get('/joints', (req, res, next) => {
-  Joint.find({})
+router.get('/movies', (req, res, next) => {
+  Movie.find({})
     .then(data => res.json(data))
     .catch(next)
 })

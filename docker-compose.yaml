@@ -1,24 +1,24 @@
 version: '3'
 services:
   client:
-    container_name: hotdogs-client
-    image: hotdogs-client
+    container_name: oscars-club-client
+    image: oscars-club-client
     build: ./client
     ports:
       - "80:80"
   server:
     depends_on:
       - mongo
-    container_name: hotdogs-server
-    image: hotdogs-server
+    container_name: oscars-club-server
+    image: oscars-club-server
     build: ./server
     ports:
       - "5000:5000"
     environment: 
-      - DB=mongodb://mongo:27017/todos
+      - DB=mongodb://mongo:27017/oscars-club
   mongo:
     image: "mongo"
-    container_name: "hotdogs-mongo"
+    container_name: "oscars-club-mongo"
     ports:
       - "27017:27017"
     volumes:
