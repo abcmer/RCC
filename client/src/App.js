@@ -5,19 +5,19 @@ import './App.css';
 import config from './config';
 
 const App = () => {
-  const [joints, setJoints] = useState([])
-  const fetchJointsData = async () => {
-    const response = await axios.get(`${config.apiUrl}/api/joints`)
-    setJoints(response.data)
+  const [movies, setMovies] = useState([])
+  const fetchMoviesData = async () => {
+    const response = await axios.get(`${config.apiUrl}/api/movies`)
+    setMovies(response.data)
   }
 
   useEffect(() => {
-    fetchJointsData()
+    fetchMoviesData()
   }, [])
 
   return(
     <div>
-      {joints.map(j => <h1 key={j._id}>{j.name}</h1>)}
+      {movies.map(j => <h1 key={j._id}>{j.name}</h1>)}
     </div>
   )
 }

@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-const JointSchema = new Schema({
+const MovieSchema = new Schema({
   name: {
     type: String,
     required: [true, "name field is required"]
@@ -9,6 +9,6 @@ const JointSchema = new Schema({
 })
 
 //create model for todo
-const Joint = mongoose.model('user', JointSchema);
+const Movie = mongoose.model('user', MovieSchema);
 
-module.exports = Joint;
+module.exports = Movie;
