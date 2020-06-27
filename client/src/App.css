@@ -39,12 +39,8 @@
 
 .ag-theme-alpine-dark {
   /* use theme parameters where possible */
-  --ag-foreground-color: #8A041B;
-  /* --ag-background-color: #570720; */
   --ag-alpine-active-color: white;
-  /* --ag-odd-row-background-color: #451625; */
 }
-
 
 .ag-theme-alpine-dark .ag-header-cell-label {
   color: #F7BA00
