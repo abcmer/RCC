@@ -1,0 +1,12 @@
+.ag-theme-alpine-dark {
+  /* use theme parameters where possible */
+  --ag-alpine-active-color: white;
+}
+
+.ag-theme-alpine-dark .ag-header-cell-label {
+  color: #F7BA00
+}
+
+.ag-theme-alpine-dark .ag-ltr .ag-cell  {
+  color: white
+}
