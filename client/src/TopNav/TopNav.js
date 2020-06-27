@@ -34,7 +34,6 @@ const useStyles = makeStyles((theme) => ({
 
 export default function TopNav(props) {
   const {appName, user, handleLogin} = props;
-  console.log('user', user)
   const [anchorEl, setAnchorEl] = useState(null);
   const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = useState(null);
 

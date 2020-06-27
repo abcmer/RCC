@@ -10,14 +10,12 @@ const App = () => {
   const [user, setUser] = useState({})
 
   const handleLogin = (response) => {
-    console.log('response', response)
     setUser({
       ...response.profileObj,
       ...response.tokenObj
     })
   }
 
-  console.log('user', user)
   return(
     <div className='App'>
       <TopNav 
