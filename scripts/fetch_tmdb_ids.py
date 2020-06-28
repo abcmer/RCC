@@ -50,11 +50,13 @@ class Movie(object):
 
         for movie in response.json()['results']:
             release_year = movie.get('release_date', '0-0-0').split('-')[0]
+            if not release_year:
+                continue
             movie_id = movie['id']
             if abs(int(release_year) - self.awardShowYear) <= 1:
               self._id = movie_id
-            print('_id', self._id)
-            break
+              print('_id', self._id)
+              break                        
 
 if __name__ == '__main__':
     API_KEY = input('TMDB API Key:')
