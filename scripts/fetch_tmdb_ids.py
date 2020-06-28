@@ -37,7 +37,7 @@ def main():
 
 class Movie(object):
     def __init__(self):
-        self._id = None
+        self.tmdbId = None
         self.title = None
         self.awardShowIndex = None
         self.awardShowYear = None
@@ -54,8 +54,8 @@ class Movie(object):
                 continue
             movie_id = movie['id']
             if abs(int(release_year) - self.awardShowYear) <= 1:
-              self._id = movie_id
-              print('_id', self._id)
+              self.tmdbId = movie_id
+              print('tmdbId', self.tmdbId)
               break                        
 
 if __name__ == '__main__':
