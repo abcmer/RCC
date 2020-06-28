@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const MovieSchema = new Schema({
-  tmdbId: {
+  _id: {
     type: Number,
     required: [true, "tmdbId field is required"]
   },
