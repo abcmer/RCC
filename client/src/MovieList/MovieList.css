@@ -1,6 +1,7 @@
 .ag-theme-alpine-dark {
   /* use theme parameters where possible */
   --ag-alpine-active-color: white;
+  --ag-selected-row-background-color: rgba(128, 0, 32, 0.5)
 }
 
 .ag-theme-alpine-dark .ag-header-cell-label {
@@ -10,3 +11,8 @@
 .ag-theme-alpine-dark .ag-ltr .ag-cell  {
   color: white
 }
+
+/* .ag-theme-alpine-dark .ag-row-selected {
+  background-color: #800020;
+  color: black
+} */
