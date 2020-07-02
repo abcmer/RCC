@@ -6,7 +6,7 @@ const path = require('path');
 require('dotenv').config();
 var cors = require('cors')
 const movieSeedData = require('./seed-data/movies.json')
-const Movie = require('./models/movie')
+const Movie = require('./models/movie').Movie
 
 const app = express();
 

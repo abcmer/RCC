@@ -2,8 +2,9 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const MovieSchema = new Schema({
-  _id: {
+  tmdbId: {
     type: Number,
+    unique: true,
     required: [true, "tmdbId field is required"]
   },
   title: {
@@ -20,6 +21,6 @@ const MovieSchema = new Schema({
   }
 })
 
-const Movie = mongoose.model('movie', MovieSchema);
+const Movie = mongoose.model('Movie', MovieSchema);
 
-module.exports = Movie;
+module.exports = {Movie, MovieSchema};
