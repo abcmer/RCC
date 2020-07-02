@@ -1,36 +1,59 @@
 import React, {useState, useEffect} from 'react';
-import axios from 'axios';
-// import './App.css';
 
-import config from './config';
+import { fetchUserData, fetchMoviesData } from './api/serverApi'
+import MovieList from './MovieList/MovieList'
+import TopNav from './TopNav/TopNav'
+import './App.css';
 
-import { AgGridReact } from 'ag-grid-react';
-
-import 'ag-grid-community/dist/styles/ag-grid.css';
-import 'ag-grid-community/dist/styles/ag-theme-alpine-dark.css';
 
 const App = () => {
+  const [isAuthenticated, setIsAuthenticated] = useState(false)
+  const [user, setUser] = useState({})
   const [movies, setMovies] = useState([])
-  const [columnDefs] = useState([
-    { headerName: "Film Title", field: "title", sortable: true, filter: true, checkboxSelection: true },
-    { headerName: "Award Show Year", field: "awardShowYear", sortable: true, filter: 'agNumberColumnFilter' },
-  ])
-  const fetchMoviesData = async () => {
-    const response = await axios.get(`${config.apiUrl}/api/movies`)
-    setMovies(response.data)
+
+  const handleLogin = async (response) => {
+    const userData = await fetchUserData(response.profileObj.email)
+    setUser({
+      ...userData,
+      ...response.profileObj,
+      ...response.tokenObj,      
+    })
+  }
+
+  const markMoviesWatched = () => {
+    const newMovies = movies.map(m => {
+      const id = m._id;
+      let hasSeen = ''
+      if (user.moviesWatched[id]) {
+        hasSeen = 'X'
+      }
+      m[user.givenName] = hasSeen;  
+      return m 
+    })  
+    setMovies(newMovies)
   }
 
   useEffect(() => {
-    fetchMoviesData()
-  }, [])
+    const fetchData = async () => {
+      const movies = await fetchMoviesData(user)
+      setMovies(movies)
+    }
+    fetchData()    
+  }, [])  
+
+  useEffect(() => {
+    markMoviesWatched()
+  }, [user])
 
   return(
-    <div className="ag-theme-alpine-dark" style={ {height: window.innerHeight, width: window.innerWidth} }>
-      <AgGridReact
-        columnDefs={columnDefs}
-        rowSelection='multiple'
-        rowData={movies}>
-      </AgGridReact>
+    <div className='App'>
+      <TopNav 
+        appName="Red Carpet Quest" 
+        isAuthenticated={isAuthenticated}
+        user={user}
+        handleLogin={handleLogin}
+      />
+      <MovieList user={user} movies={movies}/>
     </div>
     )
 }

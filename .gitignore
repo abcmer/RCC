@@ -125,3 +125,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+venv
+output.json
