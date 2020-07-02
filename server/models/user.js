@@ -8,9 +8,10 @@ const UserSchema = new Schema({
     unique: true,
     required: [true, "userId field is required"]
   },
-  moviesWatched: [
-    {type: Schema.Types.ObjectId, ref: 'Movie'}
-],
+  moviesWatched: {
+    type: Map,
+    of: Boolean
+  }
 })
 
 const User = mongoose.model('User', UserSchema);

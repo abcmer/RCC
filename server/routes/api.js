@@ -25,10 +25,25 @@ router.post('/users', (req, res, next) => {
     .catch(next)
 })
 
+router.put('/users/:userId', async (req, res, next) => {
+  const {userId} = req.params;
+  const filter = { _id: userId };
+  const update = req.body;
+  try {
+    let doc = await User.findOneAndUpdate(filter, update);
+    res.json(doc)
+  } catch (error) {
+    next(error)
+  }
+})
+
 router.get('/users', (req, res, next) => {
-  User.find({})
+  const filter = req.query;
+  User.find(filter)
     .then(data => res.json(data))
     .catch(next)
 })
+
+
 
 module.exports = router;
