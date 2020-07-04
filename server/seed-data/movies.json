@@ -1,563 +1,3380 @@
-[{"title": "Wings", "awardShowIndex": 1, "awardShowYear": 1928},
-{"title": "The Racket", "awardShowIndex": 1, "awardShowYear": 1928},
-{"title": "7th Heaven", "awardShowIndex": 1, "awardShowYear": 1928},
-{"title": "The Broadway Melody", "awardShowIndex": 2, "awardShowYear": 1929},
-{"title": "Alibi", "awardShowIndex": 2, "awardShowYear": 1929},
-{"title": "Hollywood Revue", "awardShowIndex": 2, "awardShowYear": 1929},
-{"title": "In Old Arizona", "awardShowIndex": 2, "awardShowYear": 1929},
-{"title": "The Patriot", "awardShowIndex": 2, "awardShowYear": 1929},
-{"title": "All Quiet on the Western Front", "awardShowIndex": 3, "awardShowYear": 1930},
-{"title": "The Big House", "awardShowIndex": 3, "awardShowYear": 1930},
-{"title": "Disraeli", "awardShowIndex": 3, "awardShowYear": 1930},
-{"title": "The Divorcee", "awardShowIndex": 3, "awardShowYear": 1930},
-{"title": "The Love Parade", "awardShowIndex": 3, "awardShowYear": 1930},
-{"title": "Cimarron", "awardShowIndex": 4, "awardShowYear": 1931},
-{"title": "East Lynne", "awardShowIndex": 4, "awardShowYear": 1931},
-{"title": "The Front Page", "awardShowIndex": 4, "awardShowYear": 1931},
-{"title": "Skippy", "awardShowIndex": 4, "awardShowYear": 1931},
-{"title": "Trader Horn", "awardShowIndex": 4, "awardShowYear": 1931},
-{"title": "Grand Hotel", "awardShowIndex": 5, "awardShowYear": 1932},
-{"title": "Arrowsmith", "awardShowIndex": 5, "awardShowYear": 1932},
-{"title": "Bad Girl", "awardShowIndex": 5, "awardShowYear": 1932},
-{"title": "The Champ", "awardShowIndex": 5, "awardShowYear": 1932},
-{"title": "Five Star Final", "awardShowIndex": 5, "awardShowYear": 1932},
-{"title": "One Hour with You", "awardShowIndex": 5, "awardShowYear": 1932},
-{"title": "Shanghai Express", "awardShowIndex": 5, "awardShowYear": 1932},
-{"title": "The Smiling Lieutenant", "awardShowIndex": 5, "awardShowYear": 1932},
-{"title": "Cavalcade", "awardShowIndex": 6, "awardShowYear": 1933},
-{"title": "42nd Street", "awardShowIndex": 6, "awardShowYear": 1933},
-{"title": "A Farewell to Arms", "awardShowIndex": 6, "awardShowYear": 1933},
-{"title": "I Am a Fugitive from a Chain Gang", "awardShowIndex": 6, "awardShowYear": 1933},
-{"title": "Lady for a Day", "awardShowIndex": 6, "awardShowYear": 1933},
-{"title": "Little Women", "awardShowIndex": 6, "awardShowYear": 1933},
-{"title": "The Private Life of Henry VIII", "awardShowIndex": 6, "awardShowYear": 1933},
-{"title": "She Done Him Wrong", "awardShowIndex": 6, "awardShowYear": 1933},
-{"title": "Smilin' Through", "awardShowIndex": 6, "awardShowYear": 1933},
-{"title": "State Fair", "awardShowIndex": 6, "awardShowYear": 1933},
-{"title": "It Happened One Night", "awardShowIndex": 7, "awardShowYear": 1934},
-{"title": "The Barretts of Wimpole Street", "awardShowIndex": 7, "awardShowYear": 1934},
-{"title": "Cleopatra", "awardShowIndex": 7, "awardShowYear": 1934},
-{"title": "Flirtation Walk", "awardShowIndex": 7, "awardShowYear": 1934},
-{"title": "The Gay Divorcee", "awardShowIndex": 7, "awardShowYear": 1934},
-{"title": "Here Comes the Navy", "awardShowIndex": 7, "awardShowYear": 1934},
-{"title": "The House of Rothschild", "awardShowIndex": 7, "awardShowYear": 1934},
-{"title": "Imitation of Life", "awardShowIndex": 7, "awardShowYear": 1934},
-{"title": "One Night of Love", "awardShowIndex": 7, "awardShowYear": 1934},
-{"title": "The Thin Man", "awardShowIndex": 7, "awardShowYear": 1934},
-{"title": "Viva Villa!", "awardShowIndex": 7, "awardShowYear": 1934},
-{"title": "The White Parade", "awardShowIndex": 7, "awardShowYear": 1934},
-{"title": "Mutiny on the Bounty", "awardShowIndex": 8, "awardShowYear": 1935},
-{"title": "Alice Adams", "awardShowIndex": 8, "awardShowYear": 1935},
-{"title": "Broadway Melody of 1936", "awardShowIndex": 8, "awardShowYear": 1935},
-{"title": "Captain Blood", "awardShowIndex": 8, "awardShowYear": 1935},
-{"title": "David Copperfield", "awardShowIndex": 8, "awardShowYear": 1935},
-{"title": "The Informer", "awardShowIndex": 8, "awardShowYear": 1935},
-{"title": "The Lives of a Bengal Lancer", "awardShowIndex": 8, "awardShowYear": 1935},
-{"title": "A Midsummer Night's Dream", "awardShowIndex": 8, "awardShowYear": 1935},
-{"title": "Les Misérables", "awardShowIndex": 8, "awardShowYear": 1935},
-{"title": "Naughty Marietta", "awardShowIndex": 8, "awardShowYear": 1935},
-{"title": "Ruggles of Red Gap", "awardShowIndex": 8, "awardShowYear": 1935},
-{"title": "Top Hat", "awardShowIndex": 8, "awardShowYear": 1935},
-{"title": "The Great Ziegfeld", "awardShowIndex": 9, "awardShowYear": 1936},
-{"title": "Anthony Adverse", "awardShowIndex": 9, "awardShowYear": 1936},
-{"title": "Dodsworth", "awardShowIndex": 9, "awardShowYear": 1936},
-{"title": "Libeled Lady", "awardShowIndex": 9, "awardShowYear": 1936},
-{"title": "Mr. Deeds Goes to Town", "awardShowIndex": 9, "awardShowYear": 1936},
-{"title": "Romeo and Juliet", "awardShowIndex": 9, "awardShowYear": 1936},
-{"title": "San Francisco", "awardShowIndex": 9, "awardShowYear": 1936},
-{"title": "The Story of Louis Pasteur", "awardShowIndex": 9, "awardShowYear": 1936},
-{"title": "A Tale of Two Cities", "awardShowIndex": 9, "awardShowYear": 1936},
-{"title": "Three Smart Girls", "awardShowIndex": 9, "awardShowYear": 1936},
-{"title": "The Life of Emile Zola", "awardShowIndex": 10, "awardShowYear": 1937},
-{"title": "The Awful Truth", "awardShowIndex": 10, "awardShowYear": 1937},
-{"title": "Captains Courageous", "awardShowIndex": 10, "awardShowYear": 1937},
-{"title": "Dead End", "awardShowIndex": 10, "awardShowYear": 1937},
-{"title": "The Good Earth", "awardShowIndex": 10, "awardShowYear": 1937},
-{"title": "In Old Chicago", "awardShowIndex": 10, "awardShowYear": 1937},
-{"title": "Lost Horizon", "awardShowIndex": 10, "awardShowYear": 1937},
-{"title": "One Hundred Men and a Girl", "awardShowIndex": 10, "awardShowYear": 1937},
-{"title": "Stage Door", "awardShowIndex": 10, "awardShowYear": 1937},
-{"title": "A Star Is Born", "awardShowIndex": 10, "awardShowYear": 1937},
-{"title": "You Can't Take It with You", "awardShowIndex": 11, "awardShowYear": 1938},
-{"title": "The Adventures of Robin Hood", "awardShowIndex": 11, "awardShowYear": 1938},
-{"title": "Alexander's Ragtime Band", "awardShowIndex": 11, "awardShowYear": 1938},
-{"title": "Boys Town", "awardShowIndex": 11, "awardShowYear": 1938},
-{"title": "The Citadel", "awardShowIndex": 11, "awardShowYear": 1938},
-{"title": "Four Daughters", "awardShowIndex": 11, "awardShowYear": 1938},
-{"title": "Grand Illusion", "awardShowIndex": 11, "awardShowYear": 1938},
-{"title": "Jezebel", "awardShowIndex": 11, "awardShowYear": 1938},
-{"title": "Pygmalion", "awardShowIndex": 11, "awardShowYear": 1938},
-{"title": "Test Pilot", "awardShowIndex": 11, "awardShowYear": 1938},
-{"title": "Gone with the Wind", "awardShowIndex": 12, "awardShowYear": 1939},
-{"title": "Dark Victory", "awardShowIndex": 12, "awardShowYear": 1939},
-{"title": "Goodbye, Mr. Chips", "awardShowIndex": 12, "awardShowYear": 1939},
-{"title": "Love Affair", "awardShowIndex": 12, "awardShowYear": 1939},
-{"title": "Mr. Smith Goes to Washington", "awardShowIndex": 12, "awardShowYear": 1939},
-{"title": "Ninotchka", "awardShowIndex": 12, "awardShowYear": 1939},
-{"title": "Of Mice and Men", "awardShowIndex": 12, "awardShowYear": 1939},
-{"title": "Stagecoach", "awardShowIndex": 12, "awardShowYear": 1939},
-{"title": "The Wizard of Oz", "awardShowIndex": 12, "awardShowYear": 1939},
-{"title": "Wuthering Heights", "awardShowIndex": 12, "awardShowYear": 1939},
-{"title": "Rebecca", "awardShowIndex": 13, "awardShowYear": 1940},
-{"title": "All This, and Heaven Too", "awardShowIndex": 13, "awardShowYear": 1940},
-{"title": "Foreign Correspondent", "awardShowIndex": 13, "awardShowYear": 1940},
-{"title": "The Grapes of Wrath", "awardShowIndex": 13, "awardShowYear": 1940},
-{"title": "The Great Dictator", "awardShowIndex": 13, "awardShowYear": 1940},
-{"title": "Kitty Foyle", "awardShowIndex": 13, "awardShowYear": 1940},
-{"title": "The Letter", "awardShowIndex": 13, "awardShowYear": 1940},
-{"title": "The Long Voyage Home", "awardShowIndex": 13, "awardShowYear": 1940},
-{"title": "Our Town", "awardShowIndex": 13, "awardShowYear": 1940},
-{"title": "The Philadelphia Story", "awardShowIndex": 13, "awardShowYear": 1940},
-{"title": "How Green Was My Valley", "awardShowIndex": 14, "awardShowYear": 1941},
-{"title": "Blossoms in the Dust", "awardShowIndex": 14, "awardShowYear": 1941},
-{"title": "Citizen Kane", "awardShowIndex": 14, "awardShowYear": 1941},
-{"title": "Here Comes Mr. Jordan", "awardShowIndex": 14, "awardShowYear": 1941},
-{"title": "Hold Back the Dawn", "awardShowIndex": 14, "awardShowYear": 1941},
-{"title": "The Little Foxes", "awardShowIndex": 14, "awardShowYear": 1941},
-{"title": "The Maltese Falcon", "awardShowIndex": 14, "awardShowYear": 1941},
-{"title": "One Foot in Heaven", "awardShowIndex": 14, "awardShowYear": 1941},
-{"title": "Sergeant York", "awardShowIndex": 14, "awardShowYear": 1941},
-{"title": "Suspicion", "awardShowIndex": 14, "awardShowYear": 1941},
-{"title": "Mrs. Miniver", "awardShowIndex": 15, "awardShowYear": 1942},
-{"title": "The Invaders", "awardShowIndex": 15, "awardShowYear": 1942},
-{"title": "Kings Row", "awardShowIndex": 15, "awardShowYear": 1942},
-{"title": "The Magnificent Ambersons", "awardShowIndex": 15, "awardShowYear": 1942},
-{"title": "The Pied Piper", "awardShowIndex": 15, "awardShowYear": 1942},
-{"title": "The Pride of the Yankees", "awardShowIndex": 15, "awardShowYear": 1942},
-{"title": "Random Harvest", "awardShowIndex": 15, "awardShowYear": 1942},
-{"title": "The Talk of the Town", "awardShowIndex": 15, "awardShowYear": 1942},
-{"title": "Wake Island", "awardShowIndex": 15, "awardShowYear": 1942},
-{"title": "Yankee Doodle Dandy", "awardShowIndex": 15, "awardShowYear": 1942},
-{"title": "Casablanca", "awardShowIndex": 16, "awardShowYear": 1943},
-{"title": "For Whom the Bell Tolls", "awardShowIndex": 16, "awardShowYear": 1943},
-{"title": "Heaven Can Wait", "awardShowIndex": 16, "awardShowYear": 1943},
-{"title": "The Human Comedy", "awardShowIndex": 16, "awardShowYear": 1943},
-{"title": "In Which We Serve", "awardShowIndex": 16, "awardShowYear": 1943},
-{"title": "Madame Curie", "awardShowIndex": 16, "awardShowYear": 1943},
-{"title": "The More the Merrier", "awardShowIndex": 16, "awardShowYear": 1943},
-{"title": "The Ox-Bow Incident", "awardShowIndex": 16, "awardShowYear": 1943},
-{"title": "The Song of Bernadette", "awardShowIndex": 16, "awardShowYear": 1943},
-{"title": "Watch on the Rhine", "awardShowIndex": 16, "awardShowYear": 1943},
-{"title": "Going My Way", "awardShowIndex": 17, "awardShowYear": 1944},
-{"title": "Double Indemnity", "awardShowIndex": 17, "awardShowYear": 1944},
-{"title": "Gaslight", "awardShowIndex": 17, "awardShowYear": 1944},
-{"title": "Since You Went Away", "awardShowIndex": 17, "awardShowYear": 1944},
-{"title": "Wilson", "awardShowIndex": 17, "awardShowYear": 1944},
-{"title": "The Lost Weekend", "awardShowIndex": 18, "awardShowYear": 1945},
-{"title": "Anchors Aweigh", "awardShowIndex": 18, "awardShowYear": 1945},
-{"title": "The Bells of St. Mary's", "awardShowIndex": 18, "awardShowYear": 1945},
-{"title": "Mildred Pierce", "awardShowIndex": 18, "awardShowYear": 1945},
-{"title": "Spellbound", "awardShowIndex": 18, "awardShowYear": 1945},
-{"title": "The Best Years of Our Lives", "awardShowIndex": 19, "awardShowYear": 1946},
-{"title": "Henry V", "awardShowIndex": 19, "awardShowYear": 1946},
-{"title": "It's a Wonderful Life", "awardShowIndex": 19, "awardShowYear": 1946},
-{"title": "The Razor's Edge", "awardShowIndex": 19, "awardShowYear": 1946},
-{"title": "The Yearling", "awardShowIndex": 19, "awardShowYear": 1946},
-{"title": "Gentleman's Agreement", "awardShowIndex": 20, "awardShowYear": 1947},
-{"title": "The Bishop's Wife", "awardShowIndex": 20, "awardShowYear": 1947},
-{"title": "Crossfire", "awardShowIndex": 20, "awardShowYear": 1947},
-{"title": "Great Expectations", "awardShowIndex": 20, "awardShowYear": 1947},
-{"title": "Miracle on 34th Street", "awardShowIndex": 20, "awardShowYear": 1947},
-{"title": "Hamlet", "awardShowIndex": 21, "awardShowYear": 1948},
-{"title": "Johnny Belinda", "awardShowIndex": 21, "awardShowYear": 1948},
-{"title": "The Red Shoes", "awardShowIndex": 21, "awardShowYear": 1948},
-{"title": "The Snake Pit", "awardShowIndex": 21, "awardShowYear": 1948},
-{"title": "The Treasure of the Sierra Madre", "awardShowIndex": 21, "awardShowYear": 1948},
-{"title": "All the King's Men", "awardShowIndex": 22, "awardShowYear": 1949},
-{"title": "Battleground", "awardShowIndex": 22, "awardShowYear": 1949},
-{"title": "The Heiress", "awardShowIndex": 22, "awardShowYear": 1949},
-{"title": "A Letter to Three Wives", "awardShowIndex": 22, "awardShowYear": 1949},
-{"title": "Twelve O'Clock High", "awardShowIndex": 22, "awardShowYear": 1949},
-{"title": "All About Eve", "awardShowIndex": 23, "awardShowYear": 1950},
-{"title": "Born Yesterday", "awardShowIndex": 23, "awardShowYear": 1950},
-{"title": "Father of the Bride", "awardShowIndex": 23, "awardShowYear": 1950},
-{"title": "King Solomon's Mines", "awardShowIndex": 23, "awardShowYear": 1950},
-{"title": "Sunset Boulevard", "awardShowIndex": 23, "awardShowYear": 1950},
-{"title": "An American in Paris", "awardShowIndex": 24, "awardShowYear": 1951},
-{"title": "Decision Before Dawn", "awardShowIndex": 24, "awardShowYear": 1951},
-{"title": "A Place in the Sun", "awardShowIndex": 24, "awardShowYear": 1951},
-{"title": "Quo Vadis", "awardShowIndex": 24, "awardShowYear": 1951},
-{"title": "A Streetcar Named Desire", "awardShowIndex": 24, "awardShowYear": 1951},
-{"title": "The Greatest Show on Earth", "awardShowIndex": 25, "awardShowYear": 1952},
-{"title": "High Noon", "awardShowIndex": 25, "awardShowYear": 1952},
-{"title": "Ivanhoe", "awardShowIndex": 25, "awardShowYear": 1952},
-{"title": "Moulin Rouge", "awardShowIndex": 25, "awardShowYear": 1952},
-{"title": "The Quiet Man", "awardShowIndex": 25, "awardShowYear": 1952},
-{"title": "From Here to Eternity", "awardShowIndex": 26, "awardShowYear": 1953},
-{"title": "Julius Caesar", "awardShowIndex": 26, "awardShowYear": 1953},
-{"title": "The Robe", "awardShowIndex": 26, "awardShowYear": 1953},
-{"title": "Roman Holiday", "awardShowIndex": 26, "awardShowYear": 1953},
-{"title": "Shane", "awardShowIndex": 26, "awardShowYear": 1953},
-{"title": "On the Waterfront", "awardShowIndex": 27, "awardShowYear": 1954},
-{"title": "The Caine Mutiny", "awardShowIndex": 27, "awardShowYear": 1954},
-{"title": "The Country Girl", "awardShowIndex": 27, "awardShowYear": 1954},
-{"title": "Seven Brides for Seven Brothers", "awardShowIndex": 27, "awardShowYear": 1954},
-{"title": "Three Coins in the Fountain", "awardShowIndex": 27, "awardShowYear": 1954},
-{"title": "Marty", "awardShowIndex": 28, "awardShowYear": 1955},
-{"title": "Love Is a Many-Splendored Thing", "awardShowIndex": 28, "awardShowYear": 1955},
-{"title": "Mister Roberts", "awardShowIndex": 28, "awardShowYear": 1955},
-{"title": "Picnic", "awardShowIndex": 28, "awardShowYear": 1955},
-{"title": "The Rose Tattoo", "awardShowIndex": 28, "awardShowYear": 1955},
-{"title": "Around the World in 80 Days", "awardShowIndex": 29, "awardShowYear": 1956},
-{"title": "Friendly Persuasion", "awardShowIndex": 29, "awardShowYear": 1956},
-{"title": "Giant", "awardShowIndex": 29, "awardShowYear": 1956},
-{"title": "The King and I", "awardShowIndex": 29, "awardShowYear": 1956},
-{"title": "The Ten Commandments", "awardShowIndex": 29, "awardShowYear": 1956},
-{"title": "The Bridge on the River Kwai", "awardShowIndex": 30, "awardShowYear": 1957},
-{"title": "12 Angry Men", "awardShowIndex": 30, "awardShowYear": 1957},
-{"title": "Peyton Place", "awardShowIndex": 30, "awardShowYear": 1957},
-{"title": "Sayonara", "awardShowIndex": 30, "awardShowYear": 1957},
-{"title": "Witness for the Prosecution", "awardShowIndex": 30, "awardShowYear": 1957},
-{"title": "Gigi", "awardShowIndex": 31, "awardShowYear": 1958},
-{"title": "Auntie Mame", "awardShowIndex": 31, "awardShowYear": 1958},
-{"title": "Cat on a Hot Tin Roof", "awardShowIndex": 31, "awardShowYear": 1958},
-{"title": "The Defiant Ones", "awardShowIndex": 31, "awardShowYear": 1958},
-{"title": "Separate Tables", "awardShowIndex": 31, "awardShowYear": 1958},
-{"title": "Ben-Hur", "awardShowIndex": 32, "awardShowYear": 1959},
-{"title": "Anatomy of a Murder", "awardShowIndex": 32, "awardShowYear": 1959},
-{"title": "The Diary of Anne Frank", "awardShowIndex": 32, "awardShowYear": 1959},
-{"title": "The Nun's Story", "awardShowIndex": 32, "awardShowYear": 1959},
-{"title": "Room at the Top", "awardShowIndex": 32, "awardShowYear": 1959},
-{"title": "The Apartment", "awardShowIndex": 33, "awardShowYear": 1960},
-{"title": "The Alamo", "awardShowIndex": 33, "awardShowYear": 1960},
-{"title": "Elmer Gantry", "awardShowIndex": 33, "awardShowYear": 1960},
-{"title": "Sons and Lovers", "awardShowIndex": 33, "awardShowYear": 1960},
-{"title": "The Sundowners", "awardShowIndex": 33, "awardShowYear": 1960},
-{"title": "West Side Story", "awardShowIndex": 34, "awardShowYear": 1961},
-{"title": "Fanny", "awardShowIndex": 34, "awardShowYear": 1961},
-{"title": "The Guns of Navarone", "awardShowIndex": 34, "awardShowYear": 1961},
-{"title": "The Hustler", "awardShowIndex": 34, "awardShowYear": 1961},
-{"title": "Judgment at Nuremberg", "awardShowIndex": 34, "awardShowYear": 1961},
-{"title": "Lawrence of Arabia", "awardShowIndex": 35, "awardShowYear": 1962},
-{"title": "The Longest Day", "awardShowIndex": 35, "awardShowYear": 1962},
-{"title": "The Music Man", "awardShowIndex": 35, "awardShowYear": 1962},
-{"title": "Mutiny on the Bounty", "awardShowIndex": 35, "awardShowYear": 1962},
-{"title": "To Kill a Mockingbird", "awardShowIndex": 35, "awardShowYear": 1962},
-{"title": "Tom Jones", "awardShowIndex": 36, "awardShowYear": 1963},
-{"title": "America America", "awardShowIndex": 36, "awardShowYear": 1963},
-{"title": "Cleopatra", "awardShowIndex": 36, "awardShowYear": 1963},
-{"title": "How the West Was Won", "awardShowIndex": 36, "awardShowYear": 1963},
-{"title": "Lilies of the Field", "awardShowIndex": 36, "awardShowYear": 1963},
-{"title": "My Fair Lady", "awardShowIndex": 37, "awardShowYear": 1964},
-{"title": "Becket", "awardShowIndex": 37, "awardShowYear": 1964},
-{"title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb", "awardShowIndex": 37, "awardShowYear": 1964},
-{"title": "Mary Poppins", "awardShowIndex": 37, "awardShowYear": 1964},
-{"title": "Zorba the Greek", "awardShowIndex": 37, "awardShowYear": 1964},
-{"title": "The Sound of Music", "awardShowIndex": 38, "awardShowYear": 1965},
-{"title": "Darling", "awardShowIndex": 38, "awardShowYear": 1965},
-{"title": "Doctor Zhivago", "awardShowIndex": 38, "awardShowYear": 1965},
-{"title": "Ship of Fools", "awardShowIndex": 38, "awardShowYear": 1965},
-{"title": "A Thousand Clowns", "awardShowIndex": 38, "awardShowYear": 1965},
-{"title": "A Man for All Seasons", "awardShowIndex": 39, "awardShowYear": 1966},
-{"title": "Alfie", "awardShowIndex": 39, "awardShowYear": 1966},
-{"title": "The Russians Are Coming, the Russians Are Coming", "awardShowIndex": 39, "awardShowYear": 1966},
-{"title": "The Sand Pebbles", "awardShowIndex": 39, "awardShowYear": 1966},
-{"title": "Who's Afraid of Virginia Woolf?", "awardShowIndex": 39, "awardShowYear": 1966},
-{"title": "In the Heat of the Night", "awardShowIndex": 40, "awardShowYear": 1967},
-{"title": "Bonnie and Clyde", "awardShowIndex": 40, "awardShowYear": 1967},
-{"title": "Doctor Dolittle", "awardShowIndex": 40, "awardShowYear": 1967},
-{"title": "The Graduate", "awardShowIndex": 40, "awardShowYear": 1967},
-{"title": "Guess Who's Coming to Dinner", "awardShowIndex": 40, "awardShowYear": 1967},
-{"title": "Oliver!", "awardShowIndex": 41, "awardShowYear": 1968},
-{"title": "Funny Girl", "awardShowIndex": 41, "awardShowYear": 1968},
-{"title": "The Lion in Winter", "awardShowIndex": 41, "awardShowYear": 1968},
-{"title": "Rachel, Rachel", "awardShowIndex": 41, "awardShowYear": 1968},
-{"title": "Romeo and Juliet", "awardShowIndex": 41, "awardShowYear": 1968},
-{"title": "Midnight Cowboy", "awardShowIndex": 42, "awardShowYear": 1969},
-{"title": "Anne of the Thousand Days", "awardShowIndex": 42, "awardShowYear": 1969},
-{"title": "Butch Cassidy and the Sundance Kid", "awardShowIndex": 42, "awardShowYear": 1969},
-{"title": "Hello, Dolly!", "awardShowIndex": 42, "awardShowYear": 1969},
-{"title": "Z", "awardShowIndex": 42, "awardShowYear": 1969},
-{"title": "Patton", "awardShowIndex": 43, "awardShowYear": 1970},
-{"title": "Airport", "awardShowIndex": 43, "awardShowYear": 1970},
-{"title": "Five Easy Pieces", "awardShowIndex": 43, "awardShowYear": 1970},
-{"title": "Love Story", "awardShowIndex": 43, "awardShowYear": 1970},
-{"title": "MASH", "awardShowIndex": 43, "awardShowYear": 1970},
-{"title": "The French Connection", "awardShowIndex": 44, "awardShowYear": 1971},
-{"title": "A Clockwork Orange", "awardShowIndex": 44, "awardShowYear": 1971},
-{"title": "Fiddler on the Roof", "awardShowIndex": 44, "awardShowYear": 1971},
-{"title": "The Last Picture Show", "awardShowIndex": 44, "awardShowYear": 1971},
-{"title": "Nicholas and Alexandra", "awardShowIndex": 44, "awardShowYear": 1971},
-{"title": "The Godfather", "awardShowIndex": 45, "awardShowYear": 1972},
-{"title": "Cabaret", "awardShowIndex": 45, "awardShowYear": 1972},
-{"title": "Deliverance", "awardShowIndex": 45, "awardShowYear": 1972},
-{"title": "The Emigrants", "awardShowIndex": 45, "awardShowYear": 1972},
-{"title": "Sounder", "awardShowIndex": 45, "awardShowYear": 1972},
-{"title": "The Sting", "awardShowIndex": 46, "awardShowYear": 1973},
-{"title": "American Graffiti", "awardShowIndex": 46, "awardShowYear": 1973},
-{"title": "Cries and Whispers", "awardShowIndex": 46, "awardShowYear": 1973},
-{"title": "The Exorcist", "awardShowIndex": 46, "awardShowYear": 1973},
-{"title": "A Touch of Class", "awardShowIndex": 46, "awardShowYear": 1973},
-{"title": "The Godfather Part II", "awardShowIndex": 47, "awardShowYear": 1974},
-{"title": "Chinatown", "awardShowIndex": 47, "awardShowYear": 1974},
-{"title": "The Conversation", "awardShowIndex": 47, "awardShowYear": 1974},
-{"title": "Lenny", "awardShowIndex": 47, "awardShowYear": 1974},
-{"title": "The Towering Inferno", "awardShowIndex": 47, "awardShowYear": 1974},
-{"title": "One Flew Over the Cuckoo's Nest", "awardShowIndex": 48, "awardShowYear": 1975},
-{"title": "Barry Lyndon", "awardShowIndex": 48, "awardShowYear": 1975},
-{"title": "Dog Day Afternoon", "awardShowIndex": 48, "awardShowYear": 1975},
-{"title": "Jaws", "awardShowIndex": 48, "awardShowYear": 1975},
-{"title": "Nashville", "awardShowIndex": 48, "awardShowYear": 1975},
-{"title": "Rocky", "awardShowIndex": 49, "awardShowYear": 1976},
-{"title": "All the President's Men", "awardShowIndex": 49, "awardShowYear": 1976},
-{"title": "Bound for Glory", "awardShowIndex": 49, "awardShowYear": 1976},
-{"title": "Network", "awardShowIndex": 49, "awardShowYear": 1976},
-{"title": "Taxi Driver", "awardShowIndex": 49, "awardShowYear": 1976},
-{"title": "Annie Hall", "awardShowIndex": 50, "awardShowYear": 1977},
-{"title": "The Goodbye Girl", "awardShowIndex": 50, "awardShowYear": 1977},
-{"title": "Julia", "awardShowIndex": 50, "awardShowYear": 1977},
-{"title": "Star Wars", "awardShowIndex": 50, "awardShowYear": 1977},
-{"title": "The Turning Point", "awardShowIndex": 50, "awardShowYear": 1977},
-{"title": "The Deer Hunter", "awardShowIndex": 51, "awardShowYear": 1978},
-{"title": "Coming Home", "awardShowIndex": 51, "awardShowYear": 1978},
-{"title": "Heaven Can Wait", "awardShowIndex": 51, "awardShowYear": 1978},
-{"title": "Midnight Express", "awardShowIndex": 51, "awardShowYear": 1978},
-{"title": "An Unmarried Woman", "awardShowIndex": 51, "awardShowYear": 1978},
-{"title": "Kramer vs. Kramer", "awardShowIndex": 52, "awardShowYear": 1979},
-{"title": "All That Jazz", "awardShowIndex": 52, "awardShowYear": 1979},
-{"title": "Apocalypse Now", "awardShowIndex": 52, "awardShowYear": 1979},
-{"title": "Breaking Away", "awardShowIndex": 52, "awardShowYear": 1979},
-{"title": "Norma Rae", "awardShowIndex": 52, "awardShowYear": 1979},
-{"title": "Ordinary People", "awardShowIndex": 53, "awardShowYear": 1980},
-{"title": "Coal Miner's Daughter", "awardShowIndex": 53, "awardShowYear": 1980},
-{"title": "The Elephant Man", "awardShowIndex": 53, "awardShowYear": 1980},
-{"title": "Raging Bull", "awardShowIndex": 53, "awardShowYear": 1980},
-{"title": "Tess", "awardShowIndex": 53, "awardShowYear": 1980},
-{"title": "Chariots of Fire", "awardShowIndex": 54, "awardShowYear": 1981},
-{"title": "Atlantic City", "awardShowIndex": 54, "awardShowYear": 1981},
-{"title": "On Golden Pond", "awardShowIndex": 54, "awardShowYear": 1981},
-{"title": "Raiders of the Lost Ark", "awardShowIndex": 54, "awardShowYear": 1981},
-{"title": "Reds", "awardShowIndex": 54, "awardShowYear": 1981},
-{"title": "Gandhi", "awardShowIndex": 55, "awardShowYear": 1982},
-{"title": "E.T. the Extra-Terrestrial", "awardShowIndex": 55, "awardShowYear": 1982},
-{"title": "Missing", "awardShowIndex": 55, "awardShowYear": 1982},
-{"title": "Tootsie", "awardShowIndex": 55, "awardShowYear": 1982},
-{"title": "The Verdict", "awardShowIndex": 55, "awardShowYear": 1982},
-{"title": "Terms of Endearment", "awardShowIndex": 56, "awardShowYear": 1983},
-{"title": "The Big Chill", "awardShowIndex": 56, "awardShowYear": 1983},
-{"title": "The Dresser", "awardShowIndex": 56, "awardShowYear": 1983},
-{"title": "The Right Stuff", "awardShowIndex": 56, "awardShowYear": 1983},
-{"title": "Tender Mercies", "awardShowIndex": 56, "awardShowYear": 1983},
-{"title": "Amadeus", "awardShowIndex": 57, "awardShowYear": 1984},
-{"title": "The Killing Fields", "awardShowIndex": 57, "awardShowYear": 1984},
-{"title": "A Passage to India", "awardShowIndex": 57, "awardShowYear": 1984},
-{"title": "Places in the Heart", "awardShowIndex": 57, "awardShowYear": 1984},
-{"title": "A Soldier's Story", "awardShowIndex": 57, "awardShowYear": 1984},
-{"title": "Out of Africa", "awardShowIndex": 58, "awardShowYear": 1985},
-{"title": "The Color Purple", "awardShowIndex": 58, "awardShowYear": 1985},
-{"title": "Kiss of the Spider Woman", "awardShowIndex": 58, "awardShowYear": 1985},
-{"title": "Prizzi's Honor", "awardShowIndex": 58, "awardShowYear": 1985},
-{"title": "Witness", "awardShowIndex": 58, "awardShowYear": 1985},
-{"title": "Platoon", "awardShowIndex": 59, "awardShowYear": 1986},
-{"title": "Children of a Lesser God", "awardShowIndex": 59, "awardShowYear": 1986},
-{"title": "Hannah and Her Sisters", "awardShowIndex": 59, "awardShowYear": 1986},
-{"title": "The Mission", "awardShowIndex": 59, "awardShowYear": 1986},
-{"title": "A Room with a View", "awardShowIndex": 59, "awardShowYear": 1986},
-{"title": "The Last Emperor", "awardShowIndex": 60, "awardShowYear": 1987},
-{"title": "Broadcast News", "awardShowIndex": 60, "awardShowYear": 1987},
-{"title": "Fatal Attraction", "awardShowIndex": 60, "awardShowYear": 1987},
-{"title": "Hope and Glory", "awardShowIndex": 60, "awardShowYear": 1987},
-{"title": "Moonstruck", "awardShowIndex": 60, "awardShowYear": 1987},
-{"title": "Rain Man", "awardShowIndex": 61, "awardShowYear": 1988},
-{"title": "The Accidental Tourist", "awardShowIndex": 61, "awardShowYear": 1988},
-{"title": "Dangerous Liaisons", "awardShowIndex": 61, "awardShowYear": 1988},
-{"title": "Mississippi Burning", "awardShowIndex": 61, "awardShowYear": 1988},
-{"title": "Working Girl", "awardShowIndex": 61, "awardShowYear": 1988},
-{"title": "Driving Miss Daisy", "awardShowIndex": 62, "awardShowYear": 1989},
-{"title": "Born on the Fourth of July", "awardShowIndex": 62, "awardShowYear": 1989},
-{"title": "Dead Poets Society", "awardShowIndex": 62, "awardShowYear": 1989},
-{"title": "Field of Dreams", "awardShowIndex": 62, "awardShowYear": 1989},
-{"title": "My Left Foot", "awardShowIndex": 62, "awardShowYear": 1989},
-{"title": "Dances with Wolves", "awardShowIndex": 63, "awardShowYear": 1990},
-{"title": "Awakenings", "awardShowIndex": 63, "awardShowYear": 1990},
-{"title": "Ghost", "awardShowIndex": 63, "awardShowYear": 1990},
-{"title": "The Godfather Part III", "awardShowIndex": 63, "awardShowYear": 1990},
-{"title": "Goodfellas", "awardShowIndex": 63, "awardShowYear": 1990},
-{"title": "The Silence of the Lambs", "awardShowIndex": 64, "awardShowYear": 1991},
-{"title": "Beauty and the Beast", "awardShowIndex": 64, "awardShowYear": 1991},
-{"title": "Bugsy", "awardShowIndex": 64, "awardShowYear": 1991},
-{"title": "JFK", "awardShowIndex": 64, "awardShowYear": 1991},
-{"title": "The Prince of Tides", "awardShowIndex": 64, "awardShowYear": 1991},
-{"title": "Unforgiven", "awardShowIndex": 65, "awardShowYear": 1992},
-{"title": "The Crying Game", "awardShowIndex": 65, "awardShowYear": 1992},
-{"title": "A Few Good Men", "awardShowIndex": 65, "awardShowYear": 1992},
-{"title": "Howards End", "awardShowIndex": 65, "awardShowYear": 1992},
-{"title": "Scent of a Woman", "awardShowIndex": 65, "awardShowYear": 1992},
-{"title": "Schindler's List", "awardShowIndex": 66, "awardShowYear": 1993},
-{"title": "The Fugitive", "awardShowIndex": 66, "awardShowYear": 1993},
-{"title": "In the Name of the Father", "awardShowIndex": 66, "awardShowYear": 1993},
-{"title": "The Piano", "awardShowIndex": 66, "awardShowYear": 1993},
-{"title": "The Remains of the Day", "awardShowIndex": 66, "awardShowYear": 1993},
-{"title": "Forrest Gump", "awardShowIndex": 67, "awardShowYear": 1994},
-{"title": "Four Weddings and a Funeral", "awardShowIndex": 67, "awardShowYear": 1994},
-{"title": "Pulp Fiction", "awardShowIndex": 67, "awardShowYear": 1994},
-{"title": "Quiz Show", "awardShowIndex": 67, "awardShowYear": 1994},
-{"title": "The Shawshank Redemption", "awardShowIndex": 67, "awardShowYear": 1994},
-{"title": "Braveheart", "awardShowIndex": 68, "awardShowYear": 1995},
-{"title": "Apollo 13", "awardShowIndex": 68, "awardShowYear": 1995},
-{"title": "Babe", "awardShowIndex": 68, "awardShowYear": 1995},
-{"title": "The Postman (Il Postino)", "awardShowIndex": 68, "awardShowYear": 1995},
-{"title": "Sense and Sensibility", "awardShowIndex": 68, "awardShowYear": 1995},
-{"title": "The English Patient", "awardShowIndex": 69, "awardShowYear": 1996},
-{"title": "Fargo", "awardShowIndex": 69, "awardShowYear": 1996},
-{"title": "Jerry Maguire", "awardShowIndex": 69, "awardShowYear": 1996},
-{"title": "Secrets & Lies", "awardShowIndex": 69, "awardShowYear": 1996},
-{"title": "Shine", "awardShowIndex": 69, "awardShowYear": 1996},
-{"title": "Titanic", "awardShowIndex": 70, "awardShowYear": 1997},
-{"title": "As Good as It Gets", "awardShowIndex": 70, "awardShowYear": 1997},
-{"title": "The Full Monty", "awardShowIndex": 70, "awardShowYear": 1997},
-{"title": "Good Will Hunting", "awardShowIndex": 70, "awardShowYear": 1997},
-{"title": "L.A. Confidential", "awardShowIndex": 70, "awardShowYear": 1997},
-{"title": "Shakespeare in Love", "awardShowIndex": 71, "awardShowYear": 1998},
-{"title": "Elizabeth", "awardShowIndex": 71, "awardShowYear": 1998},
-{"title": "Life Is Beautiful", "awardShowIndex": 71, "awardShowYear": 1998},
-{"title": "Saving Private Ryan", "awardShowIndex": 71, "awardShowYear": 1998},
-{"title": "The Thin Red Line", "awardShowIndex": 71, "awardShowYear": 1998},
-{"title": "American Beauty", "awardShowIndex": 72, "awardShowYear": 1999},
-{"title": "The Cider House Rules", "awardShowIndex": 72, "awardShowYear": 1999},
-{"title": "The Green Mile", "awardShowIndex": 72, "awardShowYear": 1999},
-{"title": "The Insider", "awardShowIndex": 72, "awardShowYear": 1999},
-{"title": "The Sixth Sense", "awardShowIndex": 72, "awardShowYear": 1999},
-{"title": "Gladiator", "awardShowIndex": 73, "awardShowYear": 2000},
-{"title": "Chocolat", "awardShowIndex": 73, "awardShowYear": 2000},
-{"title": "Crouching Tiger, Hidden Dragon", "awardShowIndex": 73, "awardShowYear": 2000},
-{"title": "Erin Brockovich", "awardShowIndex": 73, "awardShowYear": 2000},
-{"title": "Traffic", "awardShowIndex": 73, "awardShowYear": 2000},
-{"title": "A Beautiful Mind", "awardShowIndex": 74, "awardShowYear": 2001},
-{"title": "Gosford Park", "awardShowIndex": 74, "awardShowYear": 2001},
-{"title": "In the Bedroom", "awardShowIndex": 74, "awardShowYear": 2001},
-{"title": "The Lord of the Rings: The Fellowship of the Ring", "awardShowIndex": 74, "awardShowYear": 2001},
-{"title": "Moulin Rouge!", "awardShowIndex": 74, "awardShowYear": 2001},
-{"title": "Chicago", "awardShowIndex": 75, "awardShowYear": 2002},
-{"title": "Gangs of New York", "awardShowIndex": 75, "awardShowYear": 2002},
-{"title": "The Hours", "awardShowIndex": 75, "awardShowYear": 2002},
-{"title": "The Lord of the Rings: The Two Towers", "awardShowIndex": 75, "awardShowYear": 2002},
-{"title": "The Pianist", "awardShowIndex": 75, "awardShowYear": 2002},
-{"title": "The Lord of the Rings: The Return of the King", "awardShowIndex": 76, "awardShowYear": 2003},
-{"title": "Lost in Translation", "awardShowIndex": 76, "awardShowYear": 2003},
-{"title": "Master and Commander: The Far Side of the World", "awardShowIndex": 76, "awardShowYear": 2003},
-{"title": "Mystic River", "awardShowIndex": 76, "awardShowYear": 2003},
-{"title": "Seabiscuit", "awardShowIndex": 76, "awardShowYear": 2003},
-{"title": "Million Dollar Baby", "awardShowIndex": 77, "awardShowYear": 2004},
-{"title": "The Aviator", "awardShowIndex": 77, "awardShowYear": 2004},
-{"title": "Finding Neverland", "awardShowIndex": 77, "awardShowYear": 2004},
-{"title": "Ray", "awardShowIndex": 77, "awardShowYear": 2004},
-{"title": "Sideways", "awardShowIndex": 77, "awardShowYear": 2004},
-{"title": "Crash", "awardShowIndex": 78, "awardShowYear": 2005},
-{"title": "Brokeback Mountain", "awardShowIndex": 78, "awardShowYear": 2005},
-{"title": "Capote", "awardShowIndex": 78, "awardShowYear": 2005},
-{"title": "Good Night, and Good Luck", "awardShowIndex": 78, "awardShowYear": 2005},
-{"title": "Munich", "awardShowIndex": 78, "awardShowYear": 2005},
-{"title": "The Departed", "awardShowIndex": 79, "awardShowYear": 2006},
-{"title": "Babel", "awardShowIndex": 79, "awardShowYear": 2006},
-{"title": "Letters from Iwo Jima", "awardShowIndex": 79, "awardShowYear": 2006},
-{"title": "Little Miss Sunshine", "awardShowIndex": 79, "awardShowYear": 2006},
-{"title": "The Queen", "awardShowIndex": 79, "awardShowYear": 2006},
-{"title": "No Country for Old Men", "awardShowIndex": 80, "awardShowYear": 2007},
-{"title": "Atonement", "awardShowIndex": 80, "awardShowYear": 2007},
-{"title": "Juno", "awardShowIndex": 80, "awardShowYear": 2007},
-{"title": "Michael Clayton", "awardShowIndex": 80, "awardShowYear": 2007},
-{"title": "There Will Be Blood", "awardShowIndex": 80, "awardShowYear": 2007},
-{"title": "Slumdog Millionaire", "awardShowIndex": 81, "awardShowYear": 2008},
-{"title": "The Curious Case of Benjamin Button", "awardShowIndex": 81, "awardShowYear": 2008},
-{"title": "Frost/Nixon", "awardShowIndex": 81, "awardShowYear": 2008},
-{"title": "Milk", "awardShowIndex": 81, "awardShowYear": 2008},
-{"title": "The Reader", "awardShowIndex": 81, "awardShowYear": 2008},
-{"title": "The Hurt Locker", "awardShowIndex": 82, "awardShowYear": 2009},
-{"title": "Avatar", "awardShowIndex": 82, "awardShowYear": 2009},
-{"title": "The Blind Side", "awardShowIndex": 82, "awardShowYear": 2009},
-{"title": "District 9", "awardShowIndex": 82, "awardShowYear": 2009},
-{"title": "An Education", "awardShowIndex": 82, "awardShowYear": 2009},
-{"title": "Inglourious Basterds", "awardShowIndex": 82, "awardShowYear": 2009},
-{"title": "Precious: Based on the Novel 'Push' by Sapphire", "awardShowIndex": 82, "awardShowYear": 2009},
-{"title": "A Serious Man", "awardShowIndex": 82, "awardShowYear": 2009},
-{"title": "Up", "awardShowIndex": 82, "awardShowYear": 2009},
-{"title": "Up in the Air", "awardShowIndex": 82, "awardShowYear": 2009},
-{"title": "The King's Speech", "awardShowIndex": 83, "awardShowYear": 2010},
-{"title": "127 Hours", "awardShowIndex": 83, "awardShowYear": 2010},
-{"title": "Black Swan", "awardShowIndex": 83, "awardShowYear": 2010},
-{"title": "The Fighter", "awardShowIndex": 83, "awardShowYear": 2010},
-{"title": "Inception", "awardShowIndex": 83, "awardShowYear": 2010},
-{"title": "The Kids Are All Right", "awardShowIndex": 83, "awardShowYear": 2010},
-{"title": "The Social Network", "awardShowIndex": 83, "awardShowYear": 2010},
-{"title": "Toy Story 3", "awardShowIndex": 83, "awardShowYear": 2010},
-{"title": "True Grit", "awardShowIndex": 83, "awardShowYear": 2010},
-{"title": "Winter's Bone", "awardShowIndex": 83, "awardShowYear": 2010},
-{"title": "The Artist", "awardShowIndex": 84, "awardShowYear": 2011},
-{"title": "The Descendants", "awardShowIndex": 84, "awardShowYear": 2011},
-{"title": "Extremely Loud & Incredibly Close", "awardShowIndex": 84, "awardShowYear": 2011},
-{"title": "The Help", "awardShowIndex": 84, "awardShowYear": 2011},
-{"title": "Hugo", "awardShowIndex": 84, "awardShowYear": 2011},
-{"title": "Midnight in Paris", "awardShowIndex": 84, "awardShowYear": 2011},
-{"title": "Moneyball", "awardShowIndex": 84, "awardShowYear": 2011},
-{"title": "The Tree of Life", "awardShowIndex": 84, "awardShowYear": 2011},
-{"title": "War Horse", "awardShowIndex": 84, "awardShowYear": 2011},
-{"title": "Argo", "awardShowIndex": 85, "awardShowYear": 2012},
-{"title": "Amour", "awardShowIndex": 85, "awardShowYear": 2012},
-{"title": "Beasts of the Southern Wild", "awardShowIndex": 85, "awardShowYear": 2012},
-{"title": "Django Unchained", "awardShowIndex": 85, "awardShowYear": 2012},
-{"title": "Les Misérables", "awardShowIndex": 85, "awardShowYear": 2012},
-{"title": "Life of Pi", "awardShowIndex": 85, "awardShowYear": 2012},
-{"title": "Lincoln", "awardShowIndex": 85, "awardShowYear": 2012},
-{"title": "Silver Linings Playbook", "awardShowIndex": 85, "awardShowYear": 2012},
-{"title": "Zero Dark Thirty", "awardShowIndex": 85, "awardShowYear": 2012},
-{"title": "12 Years a Slave", "awardShowIndex": 86, "awardShowYear": 2013},
-{"title": "American Hustle", "awardShowIndex": 86, "awardShowYear": 2013},
-{"title": "Captain Phillips", "awardShowIndex": 86, "awardShowYear": 2013},
-{"title": "Dallas Buyers Club", "awardShowIndex": 86, "awardShowYear": 2013},
-{"title": "Gravity", "awardShowIndex": 86, "awardShowYear": 2013},
-{"title": "Her", "awardShowIndex": 86, "awardShowYear": 2013},
-{"title": "Nebraska", "awardShowIndex": 86, "awardShowYear": 2013},
-{"title": "Philomena", "awardShowIndex": 86, "awardShowYear": 2013},
-{"title": "The Wolf of Wall Street", "awardShowIndex": 86, "awardShowYear": 2013},
-{"title": "Birdman or (The Unexpected Virtue of Ignorance)", "awardShowIndex": 87, "awardShowYear": 2014},
-{"title": "American Sniper", "awardShowIndex": 87, "awardShowYear": 2014},
-{"title": "Boyhood", "awardShowIndex": 87, "awardShowYear": 2014},
-{"title": "The Grand Budapest Hotel", "awardShowIndex": 87, "awardShowYear": 2014},
-{"title": "The Imitation Game", "awardShowIndex": 87, "awardShowYear": 2014},
-{"title": "Selma", "awardShowIndex": 87, "awardShowYear": 2014},
-{"title": "The Theory of Everything", "awardShowIndex": 87, "awardShowYear": 2014},
-{"title": "Whiplash", "awardShowIndex": 87, "awardShowYear": 2014},
-{"title": "Spotlight", "awardShowIndex": 88, "awardShowYear": 2015},
-{"title": "The Big Short", "awardShowIndex": 88, "awardShowYear": 2015},
-{"title": "Bridge of Spies", "awardShowIndex": 88, "awardShowYear": 2015},
-{"title": "Brooklyn", "awardShowIndex": 88, "awardShowYear": 2015},
-{"title": "Mad Max: Fury Road", "awardShowIndex": 88, "awardShowYear": 2015},
-{"title": "The Martian", "awardShowIndex": 88, "awardShowYear": 2015},
-{"title": "The Revenant", "awardShowIndex": 88, "awardShowYear": 2015},
-{"title": "Room", "awardShowIndex": 88, "awardShowYear": 2015},
-{"title": "Moonlight", "awardShowIndex": 89, "awardShowYear": 2016},
-{"title": "Arrival", "awardShowIndex": 89, "awardShowYear": 2016},
-{"title": "Fences", "awardShowIndex": 89, "awardShowYear": 2016},
-{"title": "Hacksaw Ridge", "awardShowIndex": 89, "awardShowYear": 2016},
-{"title": "Hell or High Water", "awardShowIndex": 89, "awardShowYear": 2016},
-{"title": "Hidden Figures", "awardShowIndex": 89, "awardShowYear": 2016},
-{"title": "La La Land", "awardShowIndex": 89, "awardShowYear": 2016},
-{"title": "Lion", "awardShowIndex": 89, "awardShowYear": 2016},
-{"title": "Manchester by the Sea", "awardShowIndex": 89, "awardShowYear": 2016},
-{"title": "The Shape of Water", "awardShowIndex": 90, "awardShowYear": 2017},
-{"title": "Call Me by Your Name", "awardShowIndex": 90, "awardShowYear": 2017},
-{"title": "Darkest Hour", "awardShowIndex": 90, "awardShowYear": 2017},
-{"title": "Dunkirk", "awardShowIndex": 90, "awardShowYear": 2017},
-{"title": "Get Out", "awardShowIndex": 90, "awardShowYear": 2017},
-{"title": "Lady Bird", "awardShowIndex": 90, "awardShowYear": 2017},
-{"title": "Phantom Thread", "awardShowIndex": 90, "awardShowYear": 2017},
-{"title": "The Post", "awardShowIndex": 90, "awardShowYear": 2017},
-{"title": "Three Billboards Outside Ebbing, Missouri", "awardShowIndex": 90, "awardShowYear": 2017},
-{"title": "Green Book", "awardShowIndex": 91, "awardShowYear": 2018},
-{"title": "Black Panther", "awardShowIndex": 91, "awardShowYear": 2018},
-{"title": "BlacKkKlansman", "awardShowIndex": 91, "awardShowYear": 2018},
-{"title": "Bohemian Rhapsody", "awardShowIndex": 91, "awardShowYear": 2018},
-{"title": "The Favourite", "awardShowIndex": 91, "awardShowYear": 2018},
-{"title": "Roma", "awardShowIndex": 91, "awardShowYear": 2018},
-{"title": "A Star Is Born", "awardShowIndex": 91, "awardShowYear": 2018},
-{"title": "Vice", "awardShowIndex": 91, "awardShowYear": 2018},
-{"title": "Parasite", "awardShowIndex": 192, "awardShowYear": 2019},
-{"title": "Ford v Ferrari", "awardShowIndex": 192, "awardShowYear": 2019},
-{"title": "The Irishman", "awardShowIndex": 192, "awardShowYear": 2019},
-{"title": "Jojo Rabbit", "awardShowIndex": 192, "awardShowYear": 2019},
-{"title": "Joker", "awardShowIndex": 192, "awardShowYear": 2019},
-{"title": "Little Women", "awardShowIndex": 192, "awardShowYear": 2019},
-{"title": "Marriage Story", "awardShowIndex": 192, "awardShowYear": 2019},
-{"title": "1917", "awardShowIndex": 192, "awardShowYear": 2019},
-{"title": "Once Upon a Time in Hollywood", "awardShowIndex": 192, "awardShowYear": 2019}]
+[
+  {
+     "tmdbId":28966,
+     "title":"Wings",
+     "awardShowIndex":1,
+     "awardShowYear":1928
+  },
+  {
+     "tmdbId":27777,
+     "title":"The Racket",
+     "awardShowIndex":1,
+     "awardShowYear":1928
+  },
+  {
+     "tmdbId":82474,
+     "title":"7th Heaven",
+     "awardShowIndex":1,
+     "awardShowYear":1928
+  },
+  {
+     "tmdbId":65203,
+     "title":"The Broadway Melody",
+     "awardShowIndex":2,
+     "awardShowYear":1929
+  },
+  {
+     "tmdbId":13847,
+     "title":"Alibi",
+     "awardShowIndex":2,
+     "awardShowYear":1929
+  },
+  {
+     "tmdbId":31678,
+     "title":"Hollywood Revue",
+     "awardShowIndex":2,
+     "awardShowYear":1929
+  },
+  {
+     "tmdbId":83989,
+     "title":"In Old Arizona",
+     "awardShowIndex":2,
+     "awardShowYear":1929
+  },
+  {
+     "tmdbId":83990,
+     "title":"The Patriot",
+     "awardShowIndex":2,
+     "awardShowYear":1929
+  },
+  {
+     "tmdbId":143,
+     "title":"All Quiet on the Western Front",
+     "awardShowIndex":3,
+     "awardShowYear":1930
+  },
+  {
+     "tmdbId":47250,
+     "title":"The Big House",
+     "awardShowIndex":3,
+     "awardShowYear":1930
+  },
+  {
+     "tmdbId":84274,
+     "title":"Disraeli",
+     "awardShowIndex":3,
+     "awardShowYear":1930
+  },
+  {
+     "tmdbId":80708,
+     "title":"The Divorcee",
+     "awardShowIndex":3,
+     "awardShowYear":1930
+  },
+  {
+     "tmdbId":51759,
+     "title":"The Love Parade",
+     "awardShowIndex":3,
+     "awardShowYear":1930
+  },
+  {
+     "tmdbId":42861,
+     "title":"Cimarron",
+     "awardShowIndex":4,
+     "awardShowYear":1931
+  },
+  {
+     "tmdbId":84277,
+     "title":"East Lynne",
+     "awardShowIndex":4,
+     "awardShowYear":1931
+  },
+  {
+     "tmdbId":42814,
+     "title":"The Front Page",
+     "awardShowIndex":4,
+     "awardShowYear":1931
+  },
+  {
+     "tmdbId":84295,
+     "title":"Skippy",
+     "awardShowIndex":4,
+     "awardShowYear":1931
+  },
+  {
+     "tmdbId":84296,
+     "title":"Trader Horn",
+     "awardShowIndex":4,
+     "awardShowYear":1931
+  },
+  {
+     "tmdbId":33680,
+     "title":"Grand Hotel",
+     "awardShowIndex":5,
+     "awardShowYear":1932
+  },
+  {
+     "tmdbId":84298,
+     "title":"Arrowsmith",
+     "awardShowIndex":5,
+     "awardShowYear":1932
+  },
+  {
+     "tmdbId":84299,
+     "title":"Bad Girl",
+     "awardShowIndex":5,
+     "awardShowYear":1932
+  },
+  {
+     "tmdbId":42816,
+     "title":"The Champ",
+     "awardShowIndex":5,
+     "awardShowYear":1932
+  },
+  {
+     "tmdbId":42669,
+     "title":"Five Star Final",
+     "awardShowIndex":5,
+     "awardShowYear":1932
+  },
+  {
+     "tmdbId":43145,
+     "title":"One Hour with You",
+     "awardShowIndex":5,
+     "awardShowYear":1932
+  },
+  {
+     "tmdbId":875,
+     "title":"Shanghai Express",
+     "awardShowIndex":5,
+     "awardShowYear":1932
+  },
+  {
+     "tmdbId":31409,
+     "title":"The Smiling Lieutenant",
+     "awardShowIndex":5,
+     "awardShowYear":1932
+  },
+  {
+     "tmdbId":56164,
+     "title":"Cavalcade",
+     "awardShowIndex":6,
+     "awardShowYear":1933
+  },
+  {
+     "tmdbId":3062,
+     "title":"42nd Street",
+     "awardShowIndex":6,
+     "awardShowYear":1933
+  },
+  {
+     "tmdbId":22649,
+     "title":"A Farewell to Arms",
+     "awardShowIndex":6,
+     "awardShowYear":1933
+  },
+  {
+     "tmdbId":29740,
+     "title":"I Am a Fugitive from a Chain Gang",
+     "awardShowIndex":6,
+     "awardShowYear":1933
+  },
+  {
+     "tmdbId":43130,
+     "title":"Lady for a Day",
+     "awardShowIndex":6,
+     "awardShowYear":1933
+  },
+  {
+     "tmdbId":39938,
+     "title":"Little Women",
+     "awardShowIndex":6,
+     "awardShowYear":1933
+  },
+  {
+     "tmdbId":43122,
+     "title":"The Private Life of Henry VIII",
+     "awardShowIndex":6,
+     "awardShowYear":1933
+  },
+  {
+     "tmdbId":43595,
+     "title":"She Done Him Wrong",
+     "awardShowIndex":6,
+     "awardShowYear":1933
+  },
+  {
+     "tmdbId":84303,
+     "title":"Smilin' Through",
+     "awardShowIndex":6,
+     "awardShowYear":1933
+  },
+  {
+     "tmdbId":52517,
+     "title":"State Fair",
+     "awardShowIndex":6,
+     "awardShowYear":1933
+  },
+  {
+     "tmdbId":3078,
+     "title":"It Happened One Night",
+     "awardShowIndex":7,
+     "awardShowYear":1934
+  },
+  {
+     "tmdbId":43693,
+     "title":"The Barretts of Wimpole Street",
+     "awardShowIndex":7,
+     "awardShowYear":1934
+  },
+  {
+     "tmdbId":43902,
+     "title":"Cleopatra",
+     "awardShowIndex":7,
+     "awardShowYear":1934
+  },
+  {
+     "tmdbId":84100,
+     "title":"Flirtation Walk",
+     "awardShowIndex":7,
+     "awardShowYear":1934
+  },
+  {
+     "tmdbId":28288,
+     "title":"The Gay Divorcee",
+     "awardShowIndex":7,
+     "awardShowYear":1934
+  },
+  {
+     "tmdbId":84099,
+     "title":"Here Comes the Navy",
+     "awardShowIndex":7,
+     "awardShowYear":1934
+  },
+  {
+     "tmdbId":57035,
+     "title":"The House of Rothschild",
+     "awardShowIndex":7,
+     "awardShowYear":1934
+  },
+  {
+     "tmdbId":47921,
+     "title":"Imitation of Life",
+     "awardShowIndex":7,
+     "awardShowYear":1934
+  },
+  {
+     "tmdbId":84097,
+     "title":"One Night of Love",
+     "awardShowIndex":7,
+     "awardShowYear":1934
+  },
+  {
+     "tmdbId":3529,
+     "title":"The Thin Man",
+     "awardShowIndex":7,
+     "awardShowYear":1934
+  },
+  {
+     "tmdbId":43604,
+     "title":"Viva Villa!",
+     "awardShowIndex":7,
+     "awardShowYear":1934
+  },
+  {
+     "tmdbId":84095,
+     "title":"The White Parade",
+     "awardShowIndex":7,
+     "awardShowYear":1934
+  },
+  {
+     "tmdbId":12311,
+     "title":"Mutiny on the Bounty",
+     "awardShowIndex":8,
+     "awardShowYear":1935
+  },
+  {
+     "tmdbId":43886,
+     "title":"Alice Adams",
+     "awardShowIndex":8,
+     "awardShowYear":1935
+  },
+  {
+     "tmdbId":43890,
+     "title":"Broadway Melody of 1936",
+     "awardShowIndex":8,
+     "awardShowYear":1935
+  },
+  {
+     "tmdbId":16905,
+     "title":"Captain Blood",
+     "awardShowIndex":8,
+     "awardShowYear":1935
+  },
+  {
+     "tmdbId":43899,
+     "title":"David Copperfield",
+     "awardShowIndex":8,
+     "awardShowYear":1935
+  },
+  {
+     "tmdbId":43896,
+     "title":"The Informer",
+     "awardShowIndex":8,
+     "awardShowYear":1935
+  },
+  {
+     "tmdbId":43898,
+     "title":"The Lives of a Bengal Lancer",
+     "awardShowIndex":8,
+     "awardShowYear":1935
+  },
+  {
+     "tmdbId":19075,
+     "title":"A Midsummer Night's Dream",
+     "awardShowIndex":8,
+     "awardShowYear":1935
+  },
+  {
+     "tmdbId":43893,
+     "title":"Les Mis\u00e9rables",
+     "awardShowIndex":8,
+     "awardShowYear":1935
+  },
+  {
+     "tmdbId":43894,
+     "title":"Naughty Marietta",
+     "awardShowIndex":8,
+     "awardShowYear":1935
+  },
+  {
+     "tmdbId":36006,
+     "title":"Ruggles of Red Gap",
+     "awardShowIndex":8,
+     "awardShowYear":1935
+  },
+  {
+     "tmdbId":3080,
+     "title":"Top Hat",
+     "awardShowIndex":8,
+     "awardShowYear":1935
+  },
+  {
+     "tmdbId":43277,
+     "title":"The Great Ziegfeld",
+     "awardShowIndex":9,
+     "awardShowYear":1936
+  },
+  {
+     "tmdbId":37658,
+     "title":"Anthony Adverse",
+     "awardShowIndex":9,
+     "awardShowYear":1936
+  },
+  {
+     "tmdbId":31507,
+     "title":"Dodsworth",
+     "awardShowIndex":9,
+     "awardShowYear":1936
+  },
+  {
+     "tmdbId":31773,
+     "title":"Libeled Lady",
+     "awardShowIndex":9,
+     "awardShowYear":1936
+  },
+  {
+     "tmdbId":24807,
+     "title":"Mr. Deeds Goes to Town",
+     "awardShowIndex":9,
+     "awardShowYear":1936
+  },
+  {
+     "tmdbId":43879,
+     "title":"Romeo and Juliet",
+     "awardShowIndex":9,
+     "awardShowYear":1936
+  },
+  {
+     "tmdbId":43881,
+     "title":"San Francisco",
+     "awardShowIndex":9,
+     "awardShowYear":1936
+  },
+  {
+     "tmdbId":74469,
+     "title":"The Story of Louis Pasteur",
+     "awardShowIndex":9,
+     "awardShowYear":1936
+  },
+  {
+     "tmdbId":17831,
+     "title":"A Tale of Two Cities",
+     "awardShowIndex":9,
+     "awardShowYear":1936
+  },
+  {
+     "tmdbId":64142,
+     "title":"Three Smart Girls",
+     "awardShowIndex":9,
+     "awardShowYear":1936
+  },
+  {
+     "tmdbId":43278,
+     "title":"The Life of Emile Zola",
+     "awardShowIndex":10,
+     "awardShowYear":1937
+  },
+  {
+     "tmdbId":14675,
+     "title":"The Awful Truth",
+     "awardShowIndex":10,
+     "awardShowYear":1937
+  },
+  {
+     "tmdbId":16515,
+     "title":"Captains Courageous",
+     "awardShowIndex":10,
+     "awardShowYear":1937
+  },
+  {
+     "tmdbId":27973,
+     "title":"Dead End",
+     "awardShowIndex":10,
+     "awardShowYear":1937
+  },
+  {
+     "tmdbId":36652,
+     "title":"The Good Earth",
+     "awardShowIndex":10,
+     "awardShowYear":1937
+  },
+  {
+     "tmdbId":78734,
+     "title":"In Old Chicago",
+     "awardShowIndex":10,
+     "awardShowYear":1937
+  },
+  {
+     "tmdbId":3598,
+     "title":"Lost Horizon",
+     "awardShowIndex":10,
+     "awardShowYear":1937
+  },
+  {
+     "tmdbId":61647,
+     "title":"One Hundred Men and a Girl",
+     "awardShowIndex":10,
+     "awardShowYear":1937
+  },
+  {
+     "tmdbId":43864,
+     "title":"Stage Door",
+     "awardShowIndex":10,
+     "awardShowYear":1937
+  },
+  {
+     "tmdbId":22692,
+     "title":"A Star Is Born",
+     "awardShowIndex":10,
+     "awardShowYear":1937
+  },
+  {
+     "tmdbId":34106,
+     "title":"You Can't Take It with You",
+     "awardShowIndex":11,
+     "awardShowYear":1938
+  },
+  {
+     "tmdbId":10907,
+     "title":"The Adventures of Robin Hood",
+     "awardShowIndex":11,
+     "awardShowYear":1938
+  },
+  {
+     "tmdbId":43839,
+     "title":"Alexander's Ragtime Band",
+     "awardShowIndex":11,
+     "awardShowYear":1938
+  },
+  {
+     "tmdbId":42390,
+     "title":"Boys Town",
+     "awardShowIndex":11,
+     "awardShowYear":1938
+  },
+  {
+     "tmdbId":84090,
+     "title":"The Citadel",
+     "awardShowIndex":11,
+     "awardShowYear":1938
+  },
+  {
+     "tmdbId":67880,
+     "title":"Four Daughters",
+     "awardShowIndex":11,
+     "awardShowYear":1938
+  },
+  {
+     "tmdbId":777,
+     "title":"Grand Illusion",
+     "awardShowIndex":11,
+     "awardShowYear":1938
+  },
+  {
+     "tmdbId":1976,
+     "title":"Jezebel",
+     "awardShowIndex":11,
+     "awardShowYear":1938
+  },
+  {
+     "tmdbId":25016,
+     "title":"Pygmalion",
+     "awardShowIndex":11,
+     "awardShowYear":1938
+  },
+  {
+     "tmdbId":43155,
+     "title":"Test Pilot",
+     "awardShowIndex":11,
+     "awardShowYear":1938
+  },
+  {
+     "tmdbId":770,
+     "title":"Gone with the Wind",
+     "awardShowIndex":12,
+     "awardShowYear":1939
+  },
+  {
+     "tmdbId":27972,
+     "title":"Dark Victory",
+     "awardShowIndex":12,
+     "awardShowYear":1939
+  },
+  {
+     "tmdbId":42852,
+     "title":"Goodbye, Mr. Chips",
+     "awardShowIndex":12,
+     "awardShowYear":1939
+  },
+  {
+     "tmdbId":43739,
+     "title":"Love Affair",
+     "awardShowIndex":12,
+     "awardShowYear":1939
+  },
+  {
+     "tmdbId":3083,
+     "title":"Mr. Smith Goes to Washington",
+     "awardShowIndex":12,
+     "awardShowYear":1939
+  },
+  {
+     "tmdbId":1859,
+     "title":"Ninotchka",
+     "awardShowIndex":12,
+     "awardShowYear":1939
+  },
+  {
+     "tmdbId":51802,
+     "title":"Of Mice and Men",
+     "awardShowIndex":12,
+     "awardShowYear":1939
+  },
+  {
+     "tmdbId":995,
+     "title":"Stagecoach",
+     "awardShowIndex":12,
+     "awardShowYear":1939
+  },
+  {
+     "tmdbId":630,
+     "title":"The Wizard of Oz",
+     "awardShowIndex":12,
+     "awardShowYear":1939
+  },
+  {
+     "tmdbId":3084,
+     "title":"Wuthering Heights",
+     "awardShowIndex":12,
+     "awardShowYear":1939
+  },
+  {
+     "tmdbId":223,
+     "title":"Rebecca",
+     "awardShowIndex":13,
+     "awardShowYear":1940
+  },
+  {
+     "tmdbId":43807,
+     "title":"All This, and Heaven Too",
+     "awardShowIndex":13,
+     "awardShowYear":1940
+  },
+  {
+     "tmdbId":25670,
+     "title":"Foreign Correspondent",
+     "awardShowIndex":13,
+     "awardShowYear":1940
+  },
+  {
+     "tmdbId":596,
+     "title":"The Grapes of Wrath",
+     "awardShowIndex":13,
+     "awardShowYear":1940
+  },
+  {
+     "tmdbId":914,
+     "title":"The Great Dictator",
+     "awardShowIndex":13,
+     "awardShowYear":1940
+  },
+  {
+     "tmdbId":77744,
+     "title":"Kitty Foyle",
+     "awardShowIndex":13,
+     "awardShowYear":1940
+  },
+  {
+     "tmdbId":17801,
+     "title":"The Letter",
+     "awardShowIndex":13,
+     "awardShowYear":1940
+  },
+  {
+     "tmdbId":52859,
+     "title":"The Long Voyage Home",
+     "awardShowIndex":13,
+     "awardShowYear":1940
+  },
+  {
+     "tmdbId":23283,
+     "title":"Our Town",
+     "awardShowIndex":13,
+     "awardShowYear":1940
+  },
+  {
+     "tmdbId":981,
+     "title":"The Philadelphia Story",
+     "awardShowIndex":13,
+     "awardShowYear":1940
+  },
+  {
+     "tmdbId":43266,
+     "title":"How Green Was My Valley",
+     "awardShowIndex":14,
+     "awardShowYear":1941
+  },
+  {
+     "tmdbId":84087,
+     "title":"Blossoms in the Dust",
+     "awardShowIndex":14,
+     "awardShowYear":1941
+  },
+  {
+     "tmdbId":15,
+     "title":"Citizen Kane",
+     "awardShowIndex":14,
+     "awardShowYear":1941
+  },
+  {
+     "tmdbId":38914,
+     "title":"Here Comes Mr. Jordan",
+     "awardShowIndex":14,
+     "awardShowYear":1941
+  },
+  {
+     "tmdbId":51395,
+     "title":"Hold Back the Dawn",
+     "awardShowIndex":14,
+     "awardShowYear":1941
+  },
+  {
+     "tmdbId":43802,
+     "title":"The Little Foxes",
+     "awardShowIndex":14,
+     "awardShowYear":1941
+  },
+  {
+     "tmdbId":963,
+     "title":"The Maltese Falcon",
+     "awardShowIndex":14,
+     "awardShowYear":1941
+  },
+  {
+     "tmdbId":84086,
+     "title":"One Foot in Heaven",
+     "awardShowIndex":14,
+     "awardShowYear":1941
+  },
+  {
+     "tmdbId":16442,
+     "title":"Sergeant York",
+     "awardShowIndex":14,
+     "awardShowYear":1941
+  },
+  {
+     "tmdbId":11462,
+     "title":"Suspicion",
+     "awardShowIndex":14,
+     "awardShowYear":1941
+  },
+  {
+     "tmdbId":27367,
+     "title":"Mrs. Miniver",
+     "awardShowIndex":15,
+     "awardShowYear":1942
+  },
+  {
+     "tmdbId":384788,
+     "title":"The Invaders",
+     "awardShowIndex":15,
+     "awardShowYear":1942
+  },
+  {
+     "tmdbId":53779,
+     "title":"Kings Row",
+     "awardShowIndex":15,
+     "awardShowYear":1942
+  },
+  {
+     "tmdbId":965,
+     "title":"The Magnificent Ambersons",
+     "awardShowIndex":15,
+     "awardShowYear":1942
+  },
+  {
+     "tmdbId":84085,
+     "title":"The Pied Piper",
+     "awardShowIndex":15,
+     "awardShowYear":1942
+  },
+  {
+     "tmdbId":19140,
+     "title":"The Pride of the Yankees",
+     "awardShowIndex":15,
+     "awardShowYear":1942
+  },
+  {
+     "tmdbId":22387,
+     "title":"Random Harvest",
+     "awardShowIndex":15,
+     "awardShowYear":1942
+  },
+  {
+     "tmdbId":23159,
+     "title":"The Talk of the Town",
+     "awardShowIndex":15,
+     "awardShowYear":1942
+  },
+  {
+     "tmdbId":43786,
+     "title":"Wake Island",
+     "awardShowIndex":15,
+     "awardShowYear":1942
+  },
+  {
+     "tmdbId":3087,
+     "title":"Yankee Doodle Dandy",
+     "awardShowIndex":15,
+     "awardShowYear":1942
+  },
+  {
+     "tmdbId":289,
+     "title":"Casablanca",
+     "awardShowIndex":16,
+     "awardShowYear":1943
+  },
+  {
+     "tmdbId":27854,
+     "title":"For Whom the Bell Tolls",
+     "awardShowIndex":16,
+     "awardShowYear":1943
+  },
+  {
+     "tmdbId":18727,
+     "title":"Heaven Can Wait",
+     "awardShowIndex":16,
+     "awardShowYear":1943
+  },
+  {
+     "tmdbId":48993,
+     "title":"The Human Comedy",
+     "awardShowIndex":16,
+     "awardShowYear":1943
+  },
+  {
+     "tmdbId":28093,
+     "title":"In Which We Serve",
+     "awardShowIndex":16,
+     "awardShowYear":1943
+  },
+  {
+     "tmdbId":37631,
+     "title":"Madame Curie",
+     "awardShowIndex":16,
+     "awardShowYear":1943
+  },
+  {
+     "tmdbId":80616,
+     "title":"The More the Merrier",
+     "awardShowIndex":16,
+     "awardShowYear":1943
+  },
+  {
+     "tmdbId":980,
+     "title":"The Ox-Bow Incident",
+     "awardShowIndex":16,
+     "awardShowYear":1943
+  },
+  {
+     "tmdbId":43516,
+     "title":"The Song of Bernadette",
+     "awardShowIndex":16,
+     "awardShowYear":1943
+  },
+  {
+     "tmdbId":68440,
+     "title":"Watch on the Rhine",
+     "awardShowIndex":16,
+     "awardShowYear":1943
+  },
+  {
+     "tmdbId":17661,
+     "title":"Going My Way",
+     "awardShowIndex":17,
+     "awardShowYear":1944
+  },
+  {
+     "tmdbId":996,
+     "title":"Double Indemnity",
+     "awardShowIndex":17,
+     "awardShowYear":1944
+  },
+  {
+     "tmdbId":13528,
+     "title":"Gaslight",
+     "awardShowIndex":17,
+     "awardShowYear":1944
+  },
+  {
+     "tmdbId":42401,
+     "title":"Since You Went Away",
+     "awardShowIndex":17,
+     "awardShowYear":1944
+  },
+  {
+     "tmdbId":84084,
+     "title":"Wilson",
+     "awardShowIndex":17,
+     "awardShowYear":1944
+  },
+  {
+     "tmdbId":28580,
+     "title":"The Lost Weekend",
+     "awardShowIndex":18,
+     "awardShowYear":1945
+  },
+  {
+     "tmdbId":17889,
+     "title":"Anchors Aweigh",
+     "awardShowIndex":18,
+     "awardShowYear":1945
+  },
+  {
+     "tmdbId":32430,
+     "title":"The Bells of St. Mary's",
+     "awardShowIndex":18,
+     "awardShowYear":1945
+  },
+  {
+     "tmdbId":3309,
+     "title":"Mildred Pierce",
+     "awardShowIndex":18,
+     "awardShowYear":1945
+  },
+  {
+     "tmdbId":4174,
+     "title":"Spellbound",
+     "awardShowIndex":18,
+     "awardShowYear":1945
+  },
+  {
+     "tmdbId":887,
+     "title":"The Best Years of Our Lives",
+     "awardShowIndex":19,
+     "awardShowYear":1946
+  },
+  {
+     "tmdbId":22638,
+     "title":"Henry V",
+     "awardShowIndex":19,
+     "awardShowYear":1946
+  },
+  {
+     "tmdbId":1585,
+     "title":"It's a Wonderful Life",
+     "awardShowIndex":19,
+     "awardShowYear":1946
+  },
+  {
+     "tmdbId":56135,
+     "title":"The Razor's Edge",
+     "awardShowIndex":19,
+     "awardShowYear":1946
+  },
+  {
+     "tmdbId":19049,
+     "title":"The Yearling",
+     "awardShowIndex":19,
+     "awardShowYear":1946
+  },
+  {
+     "tmdbId":33667,
+     "title":"Gentleman's Agreement",
+     "awardShowIndex":20,
+     "awardShowYear":1947
+  },
+  {
+     "tmdbId":19490,
+     "title":"The Bishop's Wife",
+     "awardShowIndex":20,
+     "awardShowYear":1947
+  },
+  {
+     "tmdbId":28120,
+     "title":"Crossfire",
+     "awardShowIndex":20,
+     "awardShowYear":1947
+  },
+  {
+     "tmdbId":14320,
+     "title":"Great Expectations",
+     "awardShowIndex":20,
+     "awardShowYear":1947
+  },
+  {
+     "tmdbId":11881,
+     "title":"Miracle on 34th Street",
+     "awardShowIndex":20,
+     "awardShowYear":1947
+  },
+  {
+     "tmdbId":23383,
+     "title":"Hamlet",
+     "awardShowIndex":21,
+     "awardShowYear":1948
+  },
+  {
+     "tmdbId":62000,
+     "title":"Johnny Belinda",
+     "awardShowIndex":21,
+     "awardShowYear":1948
+  },
+  {
+     "tmdbId":19542,
+     "title":"The Red Shoes",
+     "awardShowIndex":21,
+     "awardShowYear":1948
+  },
+  {
+     "tmdbId":62694,
+     "title":"The Snake Pit",
+     "awardShowIndex":21,
+     "awardShowYear":1948
+  },
+  {
+     "tmdbId":3090,
+     "title":"The Treasure of the Sierra Madre",
+     "awardShowIndex":21,
+     "awardShowYear":1948
+  },
+  {
+     "tmdbId":25430,
+     "title":"All the King's Men",
+     "awardShowIndex":22,
+     "awardShowYear":1949
+  },
+  {
+     "tmdbId":31623,
+     "title":"Battleground",
+     "awardShowIndex":22,
+     "awardShowYear":1949
+  },
+  {
+     "tmdbId":28571,
+     "title":"The Heiress",
+     "awardShowIndex":22,
+     "awardShowYear":1949
+  },
+  {
+     "tmdbId":45578,
+     "title":"A Letter to Three Wives",
+     "awardShowIndex":22,
+     "awardShowYear":1949
+  },
+  {
+     "tmdbId":15497,
+     "title":"Twelve O'Clock High",
+     "awardShowIndex":22,
+     "awardShowYear":1949
+  },
+  {
+     "tmdbId":705,
+     "title":"All About Eve",
+     "awardShowIndex":23,
+     "awardShowYear":1950
+  },
+  {
+     "tmdbId":24481,
+     "title":"Born Yesterday",
+     "awardShowIndex":23,
+     "awardShowYear":1950
+  },
+  {
+     "tmdbId":20758,
+     "title":"Father of the Bride",
+     "awardShowIndex":23,
+     "awardShowYear":1950
+  },
+  {
+     "tmdbId":43388,
+     "title":"King Solomon's Mines",
+     "awardShowIndex":23,
+     "awardShowYear":1950
+  },
+  {
+     "tmdbId":599,
+     "title":"Sunset Boulevard",
+     "awardShowIndex":23,
+     "awardShowYear":1950
+  },
+  {
+     "tmdbId":2769,
+     "title":"An American in Paris",
+     "awardShowIndex":24,
+     "awardShowYear":1951
+  },
+  {
+     "tmdbId":4461,
+     "title":"Decision Before Dawn",
+     "awardShowIndex":24,
+     "awardShowYear":1951
+  },
+  {
+     "tmdbId":25673,
+     "title":"A Place in the Sun",
+     "awardShowIndex":24,
+     "awardShowYear":1951
+  },
+  {
+     "tmdbId":11620,
+     "title":"Quo Vadis",
+     "awardShowIndex":24,
+     "awardShowYear":1951
+  },
+  {
+     "tmdbId":702,
+     "title":"A Streetcar Named Desire",
+     "awardShowIndex":24,
+     "awardShowYear":1951
+  },
+  {
+     "tmdbId":27191,
+     "title":"The Greatest Show on Earth",
+     "awardShowIndex":25,
+     "awardShowYear":1952
+  },
+  {
+     "tmdbId":288,
+     "title":"High Noon",
+     "awardShowIndex":25,
+     "awardShowYear":1952
+  },
+  {
+     "tmdbId":26175,
+     "title":"Ivanhoe",
+     "awardShowIndex":25,
+     "awardShowYear":1952
+  },
+  {
+     "tmdbId":10910,
+     "title":"Moulin Rouge",
+     "awardShowIndex":25,
+     "awardShowYear":1952
+  },
+  {
+     "tmdbId":3109,
+     "title":"The Quiet Man",
+     "awardShowIndex":25,
+     "awardShowYear":1952
+  },
+  {
+     "tmdbId":11426,
+     "title":"From Here to Eternity",
+     "awardShowIndex":26,
+     "awardShowYear":1953
+  },
+  {
+     "tmdbId":18019,
+     "title":"Julius Caesar",
+     "awardShowIndex":26,
+     "awardShowYear":1953
+  },
+  {
+     "tmdbId":29912,
+     "title":"The Robe",
+     "awardShowIndex":26,
+     "awardShowYear":1953
+  },
+  {
+     "tmdbId":804,
+     "title":"Roman Holiday",
+     "awardShowIndex":26,
+     "awardShowYear":1953
+  },
+  {
+     "tmdbId":3110,
+     "title":"Shane",
+     "awardShowIndex":26,
+     "awardShowYear":1953
+  },
+  {
+     "tmdbId":654,
+     "title":"On the Waterfront",
+     "awardShowIndex":27,
+     "awardShowYear":1954
+  },
+  {
+     "tmdbId":10178,
+     "title":"The Caine Mutiny",
+     "awardShowIndex":27,
+     "awardShowYear":1954
+  },
+  {
+     "tmdbId":2438,
+     "title":"The Country Girl",
+     "awardShowIndex":27,
+     "awardShowYear":1954
+  },
+  {
+     "tmdbId":16563,
+     "title":"Seven Brides for Seven Brothers",
+     "awardShowIndex":27,
+     "awardShowYear":1954
+  },
+  {
+     "tmdbId":41503,
+     "title":"Three Coins in the Fountain",
+     "awardShowIndex":27,
+     "awardShowYear":1954
+  },
+  {
+     "tmdbId":15919,
+     "title":"Marty",
+     "awardShowIndex":28,
+     "awardShowYear":1955
+  },
+  {
+     "tmdbId":53879,
+     "title":"Love Is a Many-Splendored Thing",
+     "awardShowIndex":28,
+     "awardShowYear":1955
+  },
+  {
+     "tmdbId":37853,
+     "title":"Mister Roberts",
+     "awardShowIndex":28,
+     "awardShowYear":1955
+  },
+  {
+     "tmdbId":39940,
+     "title":"Picnic",
+     "awardShowIndex":28,
+     "awardShowYear":1955
+  },
+  {
+     "tmdbId":65550,
+     "title":"The Rose Tattoo",
+     "awardShowIndex":28,
+     "awardShowYear":1955
+  },
+  {
+     "tmdbId":2897,
+     "title":"Around the World in 80 Days",
+     "awardShowIndex":29,
+     "awardShowYear":1956
+  },
+  {
+     "tmdbId":43258,
+     "title":"Friendly Persuasion",
+     "awardShowIndex":29,
+     "awardShowYear":1956
+  },
+  {
+     "tmdbId":1712,
+     "title":"Giant",
+     "awardShowIndex":29,
+     "awardShowYear":1956
+  },
+  {
+     "tmdbId":16520,
+     "title":"The King and I",
+     "awardShowIndex":29,
+     "awardShowYear":1956
+  },
+  {
+     "tmdbId":6844,
+     "title":"The Ten Commandments",
+     "awardShowIndex":29,
+     "awardShowYear":1956
+  },
+  {
+     "tmdbId":826,
+     "title":"The Bridge on the River Kwai",
+     "awardShowIndex":30,
+     "awardShowYear":1957
+  },
+  {
+     "tmdbId":389,
+     "title":"12 Angry Men",
+     "awardShowIndex":30,
+     "awardShowYear":1957
+  },
+  {
+     "tmdbId":43236,
+     "title":"Peyton Place",
+     "awardShowIndex":30,
+     "awardShowYear":1957
+  },
+  {
+     "tmdbId":40885,
+     "title":"Sayonara",
+     "awardShowIndex":30,
+     "awardShowYear":1957
+  },
+  {
+     "tmdbId":37257,
+     "title":"Witness for the Prosecution",
+     "awardShowIndex":30,
+     "awardShowYear":1957
+  },
+  {
+     "tmdbId":17281,
+     "title":"Gigi",
+     "awardShowIndex":31,
+     "awardShowYear":1958
+  },
+  {
+     "tmdbId":16347,
+     "title":"Auntie Mame",
+     "awardShowIndex":31,
+     "awardShowYear":1958
+  },
+  {
+     "tmdbId":261,
+     "title":"Cat on a Hot Tin Roof",
+     "awardShowIndex":31,
+     "awardShowYear":1958
+  },
+  {
+     "tmdbId":11414,
+     "title":"The Defiant Ones",
+     "awardShowIndex":31,
+     "awardShowYear":1958
+  },
+  {
+     "tmdbId":43136,
+     "title":"Separate Tables",
+     "awardShowIndex":31,
+     "awardShowYear":1958
+  },
+  {
+     "tmdbId":665,
+     "title":"Ben-Hur",
+     "awardShowIndex":32,
+     "awardShowYear":1959
+  },
+  {
+     "tmdbId":93,
+     "title":"Anatomy of a Murder",
+     "awardShowIndex":32,
+     "awardShowYear":1959
+  },
+  {
+     "tmdbId":2576,
+     "title":"The Diary of Anne Frank",
+     "awardShowIndex":32,
+     "awardShowYear":1959
+  },
+  {
+     "tmdbId":27029,
+     "title":"The Nun's Story",
+     "awardShowIndex":32,
+     "awardShowYear":1959
+  },
+  {
+     "tmdbId":43103,
+     "title":"Room at the Top",
+     "awardShowIndex":32,
+     "awardShowYear":1959
+  },
+  {
+     "tmdbId":284,
+     "title":"The Apartment",
+     "awardShowIndex":33,
+     "awardShowYear":1960
+  },
+  {
+     "tmdbId":11209,
+     "title":"The Alamo",
+     "awardShowIndex":33,
+     "awardShowYear":1960
+  },
+  {
+     "tmdbId":22013,
+     "title":"Elmer Gantry",
+     "awardShowIndex":33,
+     "awardShowYear":1960
+  },
+  {
+     "tmdbId":53939,
+     "title":"Sons and Lovers",
+     "awardShowIndex":33,
+     "awardShowYear":1960
+  },
+  {
+     "tmdbId":43047,
+     "title":"The Sundowners",
+     "awardShowIndex":33,
+     "awardShowYear":1960
+  },
+  {
+     "tmdbId":1725,
+     "title":"West Side Story",
+     "awardShowIndex":34,
+     "awardShowYear":1961
+  },
+  {
+     "tmdbId":84050,
+     "title":"Fanny",
+     "awardShowIndex":34,
+     "awardShowYear":1961
+  },
+  {
+     "tmdbId":10911,
+     "title":"The Guns of Navarone",
+     "awardShowIndex":34,
+     "awardShowYear":1961
+  },
+  {
+     "tmdbId":990,
+     "title":"The Hustler",
+     "awardShowIndex":34,
+     "awardShowYear":1961
+  },
+  {
+     "tmdbId":821,
+     "title":"Judgment at Nuremberg",
+     "awardShowIndex":34,
+     "awardShowYear":1961
+  },
+  {
+     "tmdbId":947,
+     "title":"Lawrence of Arabia",
+     "awardShowIndex":35,
+     "awardShowYear":1962
+  },
+  {
+     "tmdbId":9289,
+     "title":"The Longest Day",
+     "awardShowIndex":35,
+     "awardShowYear":1962
+  },
+  {
+     "tmdbId":13671,
+     "title":"The Music Man",
+     "awardShowIndex":35,
+     "awardShowYear":1962
+  },
+  {
+     "tmdbId":11085,
+     "title":"Mutiny on the Bounty",
+     "awardShowIndex":35,
+     "awardShowYear":1962
+  },
+  {
+     "tmdbId":595,
+     "title":"To Kill a Mockingbird",
+     "awardShowIndex":35,
+     "awardShowYear":1962
+  },
+  {
+     "tmdbId":5769,
+     "title":"Tom Jones",
+     "awardShowIndex":36,
+     "awardShowYear":1963
+  },
+  {
+     "tmdbId":47249,
+     "title":"America America",
+     "awardShowIndex":36,
+     "awardShowYear":1963
+  },
+  {
+     "tmdbId":8095,
+     "title":"Cleopatra",
+     "awardShowIndex":36,
+     "awardShowYear":1963
+  },
+  {
+     "tmdbId":11897,
+     "title":"How the West Was Won",
+     "awardShowIndex":36,
+     "awardShowYear":1963
+  },
+  {
+     "tmdbId":38805,
+     "title":"Lilies of the Field",
+     "awardShowIndex":36,
+     "awardShowYear":1963
+  },
+  {
+     "tmdbId":11113,
+     "title":"My Fair Lady",
+     "awardShowIndex":37,
+     "awardShowYear":1964
+  },
+  {
+     "tmdbId":15421,
+     "title":"Becket",
+     "awardShowIndex":37,
+     "awardShowYear":1964
+  },
+  {
+     "tmdbId":935,
+     "title":"Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+     "awardShowIndex":37,
+     "awardShowYear":1964
+  },
+  {
+     "tmdbId":433,
+     "title":"Mary Poppins",
+     "awardShowIndex":37,
+     "awardShowYear":1964
+  },
+  {
+     "tmdbId":10604,
+     "title":"Zorba the Greek",
+     "awardShowIndex":37,
+     "awardShowYear":1964
+  },
+  {
+     "tmdbId":15121,
+     "title":"The Sound of Music",
+     "awardShowIndex":38,
+     "awardShowYear":1965
+  },
+  {
+     "tmdbId":24134,
+     "title":"Darling",
+     "awardShowIndex":38,
+     "awardShowYear":1965
+  },
+  {
+     "tmdbId":907,
+     "title":"Doctor Zhivago",
+     "awardShowIndex":38,
+     "awardShowYear":1965
+  },
+  {
+     "tmdbId":30080,
+     "title":"Ship of Fools",
+     "awardShowIndex":38,
+     "awardShowYear":1965
+  },
+  {
+     "tmdbId":42731,
+     "title":"A Thousand Clowns",
+     "awardShowIndex":38,
+     "awardShowYear":1965
+  },
+  {
+     "tmdbId":874,
+     "title":"A Man for All Seasons",
+     "awardShowIndex":39,
+     "awardShowYear":1966
+  },
+  {
+     "tmdbId":15598,
+     "title":"Alfie",
+     "awardShowIndex":39,
+     "awardShowYear":1966
+  },
+  {
+     "tmdbId":31918,
+     "title":"The Russians Are Coming, the Russians Are Coming",
+     "awardShowIndex":39,
+     "awardShowYear":1966
+  },
+  {
+     "tmdbId":5923,
+     "title":"The Sand Pebbles",
+     "awardShowIndex":39,
+     "awardShowYear":1966
+  },
+  {
+     "tmdbId":396,
+     "title":"Who's Afraid of Virginia Woolf?",
+     "awardShowIndex":39,
+     "awardShowYear":1966
+  },
+  {
+     "tmdbId":10633,
+     "title":"In the Heat of the Night",
+     "awardShowIndex":40,
+     "awardShowYear":1967
+  },
+  {
+     "tmdbId":475,
+     "title":"Bonnie and Clyde",
+     "awardShowIndex":40,
+     "awardShowYear":1967
+  },
+  {
+     "tmdbId":16081,
+     "title":"Doctor Dolittle",
+     "awardShowIndex":40,
+     "awardShowYear":1967
+  },
+  {
+     "tmdbId":37247,
+     "title":"The Graduate",
+     "awardShowIndex":40,
+     "awardShowYear":1967
+  },
+  {
+     "tmdbId":1879,
+     "title":"Guess Who's Coming to Dinner",
+     "awardShowIndex":40,
+     "awardShowYear":1967
+  },
+  {
+     "tmdbId":17917,
+     "title":"Oliver!",
+     "awardShowIndex":41,
+     "awardShowYear":1968
+  },
+  {
+     "tmdbId":16085,
+     "title":"Funny Girl",
+     "awardShowIndex":41,
+     "awardShowYear":1968
+  },
+  {
+     "tmdbId":18988,
+     "title":"The Lion in Winter",
+     "awardShowIndex":41,
+     "awardShowYear":1968
+  },
+  {
+     "tmdbId":42635,
+     "title":"Rachel, Rachel",
+     "awardShowIndex":41,
+     "awardShowYear":1968
+  },
+  {
+     "tmdbId":6003,
+     "title":"Romeo and Juliet",
+     "awardShowIndex":41,
+     "awardShowYear":1968
+  },
+  {
+     "tmdbId":3116,
+     "title":"Midnight Cowboy",
+     "awardShowIndex":42,
+     "awardShowYear":1969
+  },
+  {
+     "tmdbId":22522,
+     "title":"Anne of the Thousand Days",
+     "awardShowIndex":42,
+     "awardShowYear":1969
+  },
+  {
+     "tmdbId":642,
+     "title":"Butch Cassidy and the Sundance Kid",
+     "awardShowIndex":42,
+     "awardShowYear":1969
+  },
+  {
+     "tmdbId":14030,
+     "title":"Hello, Dolly!",
+     "awardShowIndex":42,
+     "awardShowYear":1969
+  },
+  {
+     "tmdbId":2721,
+     "title":"Z",
+     "awardShowIndex":42,
+     "awardShowYear":1969
+  },
+  {
+     "tmdbId":11202,
+     "title":"Patton",
+     "awardShowIndex":43,
+     "awardShowYear":1970
+  },
+  {
+     "tmdbId":10671,
+     "title":"Airport",
+     "awardShowIndex":43,
+     "awardShowYear":1970
+  },
+  {
+     "tmdbId":26617,
+     "title":"Five Easy Pieces",
+     "awardShowIndex":43,
+     "awardShowYear":1970
+  },
+  {
+     "tmdbId":9062,
+     "title":"Love Story",
+     "awardShowIndex":43,
+     "awardShowYear":1970
+  },
+  {
+     "tmdbId":651,
+     "title":"MASH",
+     "awardShowIndex":43,
+     "awardShowYear":1970
+  },
+  {
+     "tmdbId":1051,
+     "title":"The French Connection",
+     "awardShowIndex":44,
+     "awardShowYear":1971
+  },
+  {
+     "tmdbId":185,
+     "title":"A Clockwork Orange",
+     "awardShowIndex":44,
+     "awardShowYear":1971
+  },
+  {
+     "tmdbId":14811,
+     "title":"Fiddler on the Roof",
+     "awardShowIndex":44,
+     "awardShowYear":1971
+  },
+  {
+     "tmdbId":25188,
+     "title":"The Last Picture Show",
+     "awardShowIndex":44,
+     "awardShowYear":1971
+  },
+  {
+     "tmdbId":38646,
+     "title":"Nicholas and Alexandra",
+     "awardShowIndex":44,
+     "awardShowYear":1971
+  },
+  {
+     "tmdbId":238,
+     "title":"The Godfather",
+     "awardShowIndex":45,
+     "awardShowYear":1972
+  },
+  {
+     "tmdbId":10784,
+     "title":"Cabaret",
+     "awardShowIndex":45,
+     "awardShowYear":1972
+  },
+  {
+     "tmdbId":10669,
+     "title":"Deliverance",
+     "awardShowIndex":45,
+     "awardShowYear":1972
+  },
+  {
+     "tmdbId":40732,
+     "title":"The Emigrants",
+     "awardShowIndex":45,
+     "awardShowYear":1972
+  },
+  {
+     "tmdbId":42489,
+     "title":"Sounder",
+     "awardShowIndex":45,
+     "awardShowYear":1972
+  },
+  {
+     "tmdbId":9277,
+     "title":"The Sting",
+     "awardShowIndex":46,
+     "awardShowYear":1973
+  },
+  {
+     "tmdbId":838,
+     "title":"American Graffiti",
+     "awardShowIndex":46,
+     "awardShowYear":1973
+  },
+  {
+     "tmdbId":10238,
+     "title":"Cries and Whispers",
+     "awardShowIndex":46,
+     "awardShowYear":1973
+  },
+  {
+     "tmdbId":9552,
+     "title":"The Exorcist",
+     "awardShowIndex":46,
+     "awardShowYear":1973
+  },
+  {
+     "tmdbId":42458,
+     "title":"A Touch of Class",
+     "awardShowIndex":46,
+     "awardShowYear":1973
+  },
+  {
+     "tmdbId":240,
+     "title":"The Godfather Part II",
+     "awardShowIndex":47,
+     "awardShowYear":1974
+  },
+  {
+     "tmdbId":829,
+     "title":"Chinatown",
+     "awardShowIndex":47,
+     "awardShowYear":1974
+  },
+  {
+     "tmdbId":592,
+     "title":"The Conversation",
+     "awardShowIndex":47,
+     "awardShowYear":1974
+  },
+  {
+     "tmdbId":27094,
+     "title":"Lenny",
+     "awardShowIndex":47,
+     "awardShowYear":1974
+  },
+  {
+     "tmdbId":5919,
+     "title":"The Towering Inferno",
+     "awardShowIndex":47,
+     "awardShowYear":1974
+  },
+  {
+     "tmdbId":510,
+     "title":"One Flew Over the Cuckoo's Nest",
+     "awardShowIndex":48,
+     "awardShowYear":1975
+  },
+  {
+     "tmdbId":3175,
+     "title":"Barry Lyndon",
+     "awardShowIndex":48,
+     "awardShowYear":1975
+  },
+  {
+     "tmdbId":968,
+     "title":"Dog Day Afternoon",
+     "awardShowIndex":48,
+     "awardShowYear":1975
+  },
+  {
+     "tmdbId":578,
+     "title":"Jaws",
+     "awardShowIndex":48,
+     "awardShowYear":1975
+  },
+  {
+     "tmdbId":3121,
+     "title":"Nashville",
+     "awardShowIndex":48,
+     "awardShowYear":1975
+  },
+  {
+     "tmdbId":1366,
+     "title":"Rocky",
+     "awardShowIndex":49,
+     "awardShowYear":1976
+  },
+  {
+     "tmdbId":891,
+     "title":"All the President's Men",
+     "awardShowIndex":49,
+     "awardShowYear":1976
+  },
+  {
+     "tmdbId":42232,
+     "title":"Bound for Glory",
+     "awardShowIndex":49,
+     "awardShowYear":1976
+  },
+  {
+     "tmdbId":10774,
+     "title":"Network",
+     "awardShowIndex":49,
+     "awardShowYear":1976
+  },
+  {
+     "tmdbId":103,
+     "title":"Taxi Driver",
+     "awardShowIndex":49,
+     "awardShowYear":1976
+  },
+  {
+     "tmdbId":703,
+     "title":"Annie Hall",
+     "awardShowIndex":50,
+     "awardShowYear":1977
+  },
+  {
+     "tmdbId":14741,
+     "title":"The Goodbye Girl",
+     "awardShowIndex":50,
+     "awardShowYear":1977
+  },
+  {
+     "tmdbId":42222,
+     "title":"Julia",
+     "awardShowIndex":50,
+     "awardShowYear":1977
+  },
+  {
+     "tmdbId":11,
+     "title":"Star Wars",
+     "awardShowIndex":50,
+     "awardShowYear":1977
+  },
+  {
+     "tmdbId":61280,
+     "title":"The Turning Point",
+     "awardShowIndex":50,
+     "awardShowYear":1977
+  },
+  {
+     "tmdbId":11778,
+     "title":"The Deer Hunter",
+     "awardShowIndex":51,
+     "awardShowYear":1978
+  },
+  {
+     "tmdbId":31657,
+     "title":"Coming Home",
+     "awardShowIndex":51,
+     "awardShowYear":1978
+  },
+  {
+     "tmdbId":12185,
+     "title":"Heaven Can Wait",
+     "awardShowIndex":51,
+     "awardShowYear":1978
+  },
+  {
+     "tmdbId":11327,
+     "title":"Midnight Express",
+     "awardShowIndex":51,
+     "awardShowYear":1978
+  },
+  {
+     "tmdbId":38731,
+     "title":"An Unmarried Woman",
+     "awardShowIndex":51,
+     "awardShowYear":1978
+  },
+  {
+     "tmdbId":12102,
+     "title":"Kramer vs. Kramer",
+     "awardShowIndex":52,
+     "awardShowYear":1979
+  },
+  {
+     "tmdbId":16858,
+     "title":"All That Jazz",
+     "awardShowIndex":52,
+     "awardShowYear":1979
+  },
+  {
+     "tmdbId":28,
+     "title":"Apocalypse Now",
+     "awardShowIndex":52,
+     "awardShowYear":1979
+  },
+  {
+     "tmdbId":20283,
+     "title":"Breaking Away",
+     "awardShowIndex":52,
+     "awardShowYear":1979
+  },
+  {
+     "tmdbId":40842,
+     "title":"Norma Rae",
+     "awardShowIndex":52,
+     "awardShowYear":1979
+  },
+  {
+     "tmdbId":16619,
+     "title":"Ordinary People",
+     "awardShowIndex":53,
+     "awardShowYear":1980
+  },
+  {
+     "tmdbId":16769,
+     "title":"Coal Miner's Daughter",
+     "awardShowIndex":53,
+     "awardShowYear":1980
+  },
+  {
+     "tmdbId":1955,
+     "title":"The Elephant Man",
+     "awardShowIndex":53,
+     "awardShowYear":1980
+  },
+  {
+     "tmdbId":1578,
+     "title":"Raging Bull",
+     "awardShowIndex":53,
+     "awardShowYear":1980
+  },
+  {
+     "tmdbId":11121,
+     "title":"Tess",
+     "awardShowIndex":53,
+     "awardShowYear":1980
+  },
+  {
+     "tmdbId":9443,
+     "title":"Chariots of Fire",
+     "awardShowIndex":54,
+     "awardShowYear":1981
+  },
+  {
+     "tmdbId":23954,
+     "title":"Atlantic City",
+     "awardShowIndex":54,
+     "awardShowYear":1981
+  },
+  {
+     "tmdbId":11816,
+     "title":"On Golden Pond",
+     "awardShowIndex":54,
+     "awardShowYear":1981
+  },
+  {
+     "tmdbId":85,
+     "title":"Raiders of the Lost Ark",
+     "awardShowIndex":54,
+     "awardShowYear":1981
+  },
+  {
+     "tmdbId":18254,
+     "title":"Reds",
+     "awardShowIndex":54,
+     "awardShowYear":1981
+  },
+  {
+     "tmdbId":783,
+     "title":"Gandhi",
+     "awardShowIndex":55,
+     "awardShowYear":1982
+  },
+  {
+     "tmdbId":601,
+     "title":"E.T. the Extra-Terrestrial",
+     "awardShowIndex":55,
+     "awardShowYear":1982
+  },
+  {
+     "tmdbId":15600,
+     "title":"Missing",
+     "awardShowIndex":55,
+     "awardShowYear":1982
+  },
+  {
+     "tmdbId":9576,
+     "title":"Tootsie",
+     "awardShowIndex":55,
+     "awardShowYear":1982
+  },
+  {
+     "tmdbId":24226,
+     "title":"The Verdict",
+     "awardShowIndex":55,
+     "awardShowYear":1982
+  },
+  {
+     "tmdbId":11050,
+     "title":"Terms of Endearment",
+     "awardShowIndex":56,
+     "awardShowYear":1983
+  },
+  {
+     "tmdbId":12560,
+     "title":"The Big Chill",
+     "awardShowIndex":56,
+     "awardShowYear":1983
+  },
+  {
+     "tmdbId":42122,
+     "title":"The Dresser",
+     "awardShowIndex":56,
+     "awardShowYear":1983
+  },
+  {
+     "tmdbId":9549,
+     "title":"The Right Stuff",
+     "awardShowIndex":56,
+     "awardShowYear":1983
+  },
+  {
+     "tmdbId":42121,
+     "title":"Tender Mercies",
+     "awardShowIndex":56,
+     "awardShowYear":1983
+  },
+  {
+     "tmdbId":279,
+     "title":"Amadeus",
+     "awardShowIndex":57,
+     "awardShowYear":1984
+  },
+  {
+     "tmdbId":625,
+     "title":"The Killing Fields",
+     "awardShowIndex":57,
+     "awardShowYear":1984
+  },
+  {
+     "tmdbId":15927,
+     "title":"A Passage to India",
+     "awardShowIndex":57,
+     "awardShowYear":1984
+  },
+  {
+     "tmdbId":13681,
+     "title":"Places in the Heart",
+     "awardShowIndex":57,
+     "awardShowYear":1984
+  },
+  {
+     "tmdbId":26522,
+     "title":"A Soldier's Story",
+     "awardShowIndex":57,
+     "awardShowYear":1984
+  },
+  {
+     "tmdbId":606,
+     "title":"Out of Africa",
+     "awardShowIndex":58,
+     "awardShowYear":1985
+  },
+  {
+     "tmdbId":873,
+     "title":"The Color Purple",
+     "awardShowIndex":58,
+     "awardShowYear":1985
+  },
+  {
+     "tmdbId":11703,
+     "title":"Kiss of the Spider Woman",
+     "awardShowIndex":58,
+     "awardShowYear":1985
+  },
+  {
+     "tmdbId":2075,
+     "title":"Prizzi's Honor",
+     "awardShowIndex":58,
+     "awardShowYear":1985
+  },
+  {
+     "tmdbId":9281,
+     "title":"Witness",
+     "awardShowIndex":58,
+     "awardShowYear":1985
+  },
+  {
+     "tmdbId":792,
+     "title":"Platoon",
+     "awardShowIndex":59,
+     "awardShowYear":1986
+  },
+  {
+     "tmdbId":1890,
+     "title":"Children of a Lesser God",
+     "awardShowIndex":59,
+     "awardShowYear":1986
+  },
+  {
+     "tmdbId":5143,
+     "title":"Hannah and Her Sisters",
+     "awardShowIndex":59,
+     "awardShowYear":1986
+  },
+  {
+     "tmdbId":11416,
+     "title":"The Mission",
+     "awardShowIndex":59,
+     "awardShowYear":1986
+  },
+  {
+     "tmdbId":11257,
+     "title":"A Room with a View",
+     "awardShowIndex":59,
+     "awardShowYear":1986
+  },
+  {
+     "tmdbId":746,
+     "title":"The Last Emperor",
+     "awardShowIndex":60,
+     "awardShowYear":1987
+  },
+  {
+     "tmdbId":12626,
+     "title":"Broadcast News",
+     "awardShowIndex":60,
+     "awardShowYear":1987
+  },
+  {
+     "tmdbId":10998,
+     "title":"Fatal Attraction",
+     "awardShowIndex":60,
+     "awardShowYear":1987
+  },
+  {
+     "tmdbId":32054,
+     "title":"Hope and Glory",
+     "awardShowIndex":60,
+     "awardShowYear":1987
+  },
+  {
+     "tmdbId":2039,
+     "title":"Moonstruck",
+     "awardShowIndex":60,
+     "awardShowYear":1987
+  },
+  {
+     "tmdbId":380,
+     "title":"Rain Man",
+     "awardShowIndex":61,
+     "awardShowYear":1988
+  },
+  {
+     "tmdbId":31052,
+     "title":"The Accidental Tourist",
+     "awardShowIndex":61,
+     "awardShowYear":1988
+  },
+  {
+     "tmdbId":859,
+     "title":"Dangerous Liaisons",
+     "awardShowIndex":61,
+     "awardShowYear":1988
+  },
+  {
+     "tmdbId":1632,
+     "title":"Mississippi Burning",
+     "awardShowIndex":61,
+     "awardShowYear":1988
+  },
+  {
+     "tmdbId":3525,
+     "title":"Working Girl",
+     "awardShowIndex":61,
+     "awardShowYear":1988
+  },
+  {
+     "tmdbId":403,
+     "title":"Driving Miss Daisy",
+     "awardShowIndex":62,
+     "awardShowYear":1989
+  },
+  {
+     "tmdbId":2604,
+     "title":"Born on the Fourth of July",
+     "awardShowIndex":62,
+     "awardShowYear":1989
+  },
+  {
+     "tmdbId":207,
+     "title":"Dead Poets Society",
+     "awardShowIndex":62,
+     "awardShowYear":1989
+  },
+  {
+     "tmdbId":2323,
+     "title":"Field of Dreams",
+     "awardShowIndex":62,
+     "awardShowYear":1989
+  },
+  {
+     "tmdbId":10161,
+     "title":"My Left Foot",
+     "awardShowIndex":62,
+     "awardShowYear":1989
+  },
+  {
+     "tmdbId":581,
+     "title":"Dances with Wolves",
+     "awardShowIndex":63,
+     "awardShowYear":1990
+  },
+  {
+     "tmdbId":11005,
+     "title":"Awakenings",
+     "awardShowIndex":63,
+     "awardShowYear":1990
+  },
+  {
+     "tmdbId":251,
+     "title":"Ghost",
+     "awardShowIndex":63,
+     "awardShowYear":1990
+  },
+  {
+     "tmdbId":242,
+     "title":"The Godfather Part III",
+     "awardShowIndex":63,
+     "awardShowYear":1990
+  },
+  {
+     "tmdbId":769,
+     "title":"Goodfellas",
+     "awardShowIndex":63,
+     "awardShowYear":1990
+  },
+  {
+     "tmdbId":274,
+     "title":"The Silence of the Lambs",
+     "awardShowIndex":64,
+     "awardShowYear":1991
+  },
+  {
+     "tmdbId":10020,
+     "title":"Beauty and the Beast",
+     "awardShowIndex":64,
+     "awardShowYear":1991
+  },
+  {
+     "tmdbId":10337,
+     "title":"Bugsy",
+     "awardShowIndex":64,
+     "awardShowYear":1991
+  },
+  {
+     "tmdbId":820,
+     "title":"JFK",
+     "awardShowIndex":64,
+     "awardShowYear":1991
+  },
+  {
+     "tmdbId":10333,
+     "title":"The Prince of Tides",
+     "awardShowIndex":64,
+     "awardShowYear":1991
+  },
+  {
+     "tmdbId":33,
+     "title":"Unforgiven",
+     "awardShowIndex":65,
+     "awardShowYear":1992
+  },
+  {
+     "tmdbId":11386,
+     "title":"The Crying Game",
+     "awardShowIndex":65,
+     "awardShowYear":1992
+  },
+  {
+     "tmdbId":881,
+     "title":"A Few Good Men",
+     "awardShowIndex":65,
+     "awardShowYear":1992
+  },
+  {
+     "tmdbId":8293,
+     "title":"Howards End",
+     "awardShowIndex":65,
+     "awardShowYear":1992
+  },
+  {
+     "tmdbId":9475,
+     "title":"Scent of a Woman",
+     "awardShowIndex":65,
+     "awardShowYear":1992
+  },
+  {
+     "tmdbId":424,
+     "title":"Schindler's List",
+     "awardShowIndex":66,
+     "awardShowYear":1993
+  },
+  {
+     "tmdbId":5503,
+     "title":"The Fugitive",
+     "awardShowIndex":66,
+     "awardShowYear":1993
+  },
+  {
+     "tmdbId":7984,
+     "title":"In the Name of the Father",
+     "awardShowIndex":66,
+     "awardShowYear":1993
+  },
+  {
+     "tmdbId":713,
+     "title":"The Piano",
+     "awardShowIndex":66,
+     "awardShowYear":1993
+  },
+  {
+     "tmdbId":1245,
+     "title":"The Remains of the Day",
+     "awardShowIndex":66,
+     "awardShowYear":1993
+  },
+  {
+     "tmdbId":13,
+     "title":"Forrest Gump",
+     "awardShowIndex":67,
+     "awardShowYear":1994
+  },
+  {
+     "tmdbId":712,
+     "title":"Four Weddings and a Funeral",
+     "awardShowIndex":67,
+     "awardShowYear":1994
+  },
+  {
+     "tmdbId":680,
+     "title":"Pulp Fiction",
+     "awardShowIndex":67,
+     "awardShowYear":1994
+  },
+  {
+     "tmdbId":11450,
+     "title":"Quiz Show",
+     "awardShowIndex":67,
+     "awardShowYear":1994
+  },
+  {
+     "tmdbId":278,
+     "title":"The Shawshank Redemption",
+     "awardShowIndex":67,
+     "awardShowYear":1994
+  },
+  {
+     "tmdbId":197,
+     "title":"Braveheart",
+     "awardShowIndex":68,
+     "awardShowYear":1995
+  },
+  {
+     "tmdbId":568,
+     "title":"Apollo 13",
+     "awardShowIndex":68,
+     "awardShowYear":1995
+  },
+  {
+     "tmdbId":9598,
+     "title":"Babe",
+     "awardShowIndex":68,
+     "awardShowYear":1995
+  },
+  {
+     "tmdbId":11010,
+     "title":"The Postman (Il Postino)",
+     "awardShowIndex":68,
+     "awardShowYear":1995
+  },
+  {
+     "tmdbId":4584,
+     "title":"Sense and Sensibility",
+     "awardShowIndex":68,
+     "awardShowYear":1995
+  },
+  {
+     "tmdbId":409,
+     "title":"The English Patient",
+     "awardShowIndex":69,
+     "awardShowYear":1996
+  },
+  {
+     "tmdbId":275,
+     "title":"Fargo",
+     "awardShowIndex":69,
+     "awardShowYear":1996
+  },
+  {
+     "tmdbId":9390,
+     "title":"Jerry Maguire",
+     "awardShowIndex":69,
+     "awardShowYear":1996
+  },
+  {
+     "tmdbId":11159,
+     "title":"Secrets & Lies",
+     "awardShowIndex":69,
+     "awardShowYear":1996
+  },
+  {
+     "tmdbId":7863,
+     "title":"Shine",
+     "awardShowIndex":69,
+     "awardShowYear":1996
+  },
+  {
+     "tmdbId":597,
+     "title":"Titanic",
+     "awardShowIndex":70,
+     "awardShowYear":1997
+  },
+  {
+     "tmdbId":2898,
+     "title":"As Good as It Gets",
+     "awardShowIndex":70,
+     "awardShowYear":1997
+  },
+  {
+     "tmdbId":9427,
+     "title":"The Full Monty",
+     "awardShowIndex":70,
+     "awardShowYear":1997
+  },
+  {
+     "tmdbId":489,
+     "title":"Good Will Hunting",
+     "awardShowIndex":70,
+     "awardShowYear":1997
+  },
+  {
+     "tmdbId":2118,
+     "title":"L.A. Confidential",
+     "awardShowIndex":70,
+     "awardShowYear":1997
+  },
+  {
+     "tmdbId":1934,
+     "title":"Shakespeare in Love",
+     "awardShowIndex":71,
+     "awardShowYear":1998
+  },
+  {
+     "tmdbId":4518,
+     "title":"Elizabeth",
+     "awardShowIndex":71,
+     "awardShowYear":1998
+  },
+  {
+     "tmdbId":637,
+     "title":"Life Is Beautiful",
+     "awardShowIndex":71,
+     "awardShowYear":1998
+  },
+  {
+     "tmdbId":857,
+     "title":"Saving Private Ryan",
+     "awardShowIndex":71,
+     "awardShowYear":1998
+  },
+  {
+     "tmdbId":8741,
+     "title":"The Thin Red Line",
+     "awardShowIndex":71,
+     "awardShowYear":1998
+  },
+  {
+     "tmdbId":14,
+     "title":"American Beauty",
+     "awardShowIndex":72,
+     "awardShowYear":1999
+  },
+  {
+     "tmdbId":1715,
+     "title":"The Cider House Rules",
+     "awardShowIndex":72,
+     "awardShowYear":1999
+  },
+  {
+     "tmdbId":497,
+     "title":"The Green Mile",
+     "awardShowIndex":72,
+     "awardShowYear":1999
+  },
+  {
+     "tmdbId":9008,
+     "title":"The Insider",
+     "awardShowIndex":72,
+     "awardShowYear":1999
+  },
+  {
+     "tmdbId":745,
+     "title":"The Sixth Sense",
+     "awardShowIndex":72,
+     "awardShowYear":1999
+  },
+  {
+     "tmdbId":98,
+     "title":"Gladiator",
+     "awardShowIndex":73,
+     "awardShowYear":2000
+  },
+  {
+     "tmdbId":392,
+     "title":"Chocolat",
+     "awardShowIndex":73,
+     "awardShowYear":2000
+  },
+  {
+     "tmdbId":146,
+     "title":"Crouching Tiger, Hidden Dragon",
+     "awardShowIndex":73,
+     "awardShowYear":2000
+  },
+  {
+     "tmdbId":462,
+     "title":"Erin Brockovich",
+     "awardShowIndex":73,
+     "awardShowYear":2000
+  },
+  {
+     "tmdbId":1900,
+     "title":"Traffic",
+     "awardShowIndex":73,
+     "awardShowYear":2000
+  },
+  {
+     "tmdbId":453,
+     "title":"A Beautiful Mind",
+     "awardShowIndex":74,
+     "awardShowYear":2001
+  },
+  {
+     "tmdbId":5279,
+     "title":"Gosford Park",
+     "awardShowIndex":74,
+     "awardShowYear":2001
+  },
+  {
+     "tmdbId":1999,
+     "title":"In the Bedroom",
+     "awardShowIndex":74,
+     "awardShowYear":2001
+  },
+  {
+     "tmdbId":120,
+     "title":"The Lord of the Rings: The Fellowship of the Ring",
+     "awardShowIndex":74,
+     "awardShowYear":2001
+  },
+  {
+     "tmdbId":824,
+     "title":"Moulin Rouge!",
+     "awardShowIndex":74,
+     "awardShowYear":2001
+  },
+  {
+     "tmdbId":1574,
+     "title":"Chicago",
+     "awardShowIndex":75,
+     "awardShowYear":2002
+  },
+  {
+     "tmdbId":3131,
+     "title":"Gangs of New York",
+     "awardShowIndex":75,
+     "awardShowYear":2002
+  },
+  {
+     "tmdbId":590,
+     "title":"The Hours",
+     "awardShowIndex":75,
+     "awardShowYear":2002
+  },
+  {
+     "tmdbId":121,
+     "title":"The Lord of the Rings: The Two Towers",
+     "awardShowIndex":75,
+     "awardShowYear":2002
+  },
+  {
+     "tmdbId":423,
+     "title":"The Pianist",
+     "awardShowIndex":75,
+     "awardShowYear":2002
+  },
+  {
+     "tmdbId":122,
+     "title":"The Lord of the Rings: The Return of the King",
+     "awardShowIndex":76,
+     "awardShowYear":2003
+  },
+  {
+     "tmdbId":153,
+     "title":"Lost in Translation",
+     "awardShowIndex":76,
+     "awardShowYear":2003
+  },
+  {
+     "tmdbId":8619,
+     "title":"Master and Commander: The Far Side of the World",
+     "awardShowIndex":76,
+     "awardShowYear":2003
+  },
+  {
+     "tmdbId":322,
+     "title":"Mystic River",
+     "awardShowIndex":76,
+     "awardShowYear":2003
+  },
+  {
+     "tmdbId":4464,
+     "title":"Seabiscuit",
+     "awardShowIndex":76,
+     "awardShowYear":2003
+  },
+  {
+     "tmdbId":70,
+     "title":"Million Dollar Baby",
+     "awardShowIndex":77,
+     "awardShowYear":2004
+  },
+  {
+     "tmdbId":2567,
+     "title":"The Aviator",
+     "awardShowIndex":77,
+     "awardShowYear":2004
+  },
+  {
+     "tmdbId":866,
+     "title":"Finding Neverland",
+     "awardShowIndex":77,
+     "awardShowYear":2004
+  },
+  {
+     "tmdbId":1677,
+     "title":"Ray",
+     "awardShowIndex":77,
+     "awardShowYear":2004
+  },
+  {
+     "tmdbId":9675,
+     "title":"Sideways",
+     "awardShowIndex":77,
+     "awardShowYear":2004
+  },
+  {
+     "tmdbId":1640,
+     "title":"Crash",
+     "awardShowIndex":78,
+     "awardShowYear":2005
+  },
+  {
+     "tmdbId":142,
+     "title":"Brokeback Mountain",
+     "awardShowIndex":78,
+     "awardShowYear":2005
+  },
+  {
+     "tmdbId":398,
+     "title":"Capote",
+     "awardShowIndex":78,
+     "awardShowYear":2005
+  },
+  {
+     "tmdbId":3291,
+     "title":"Good Night, and Good Luck",
+     "awardShowIndex":78,
+     "awardShowYear":2005
+  },
+  {
+     "tmdbId":612,
+     "title":"Munich",
+     "awardShowIndex":78,
+     "awardShowYear":2005
+  },
+  {
+     "tmdbId":1422,
+     "title":"The Departed",
+     "awardShowIndex":79,
+     "awardShowYear":2006
+  },
+  {
+     "tmdbId":1164,
+     "title":"Babel",
+     "awardShowIndex":79,
+     "awardShowYear":2006
+  },
+  {
+     "tmdbId":1251,
+     "title":"Letters from Iwo Jima",
+     "awardShowIndex":79,
+     "awardShowYear":2006
+  },
+  {
+     "tmdbId":773,
+     "title":"Little Miss Sunshine",
+     "awardShowIndex":79,
+     "awardShowYear":2006
+  },
+  {
+     "tmdbId":1165,
+     "title":"The Queen",
+     "awardShowIndex":79,
+     "awardShowYear":2006
+  },
+  {
+     "tmdbId":6977,
+     "title":"No Country for Old Men",
+     "awardShowIndex":80,
+     "awardShowYear":2007
+  },
+  {
+     "tmdbId":4347,
+     "title":"Atonement",
+     "awardShowIndex":80,
+     "awardShowYear":2007
+  },
+  {
+     "tmdbId":7326,
+     "title":"Juno",
+     "awardShowIndex":80,
+     "awardShowYear":2007
+  },
+  {
+     "tmdbId":4566,
+     "title":"Michael Clayton",
+     "awardShowIndex":80,
+     "awardShowYear":2007
+  },
+  {
+     "tmdbId":7345,
+     "title":"There Will Be Blood",
+     "awardShowIndex":80,
+     "awardShowYear":2007
+  },
+  {
+     "tmdbId":12405,
+     "title":"Slumdog Millionaire",
+     "awardShowIndex":81,
+     "awardShowYear":2008
+  },
+  {
+     "tmdbId":4922,
+     "title":"The Curious Case of Benjamin Button",
+     "awardShowIndex":81,
+     "awardShowYear":2008
+  },
+  {
+     "tmdbId":11499,
+     "title":"Frost/Nixon",
+     "awardShowIndex":81,
+     "awardShowYear":2008
+  },
+  {
+     "tmdbId":10139,
+     "title":"Milk",
+     "awardShowIndex":81,
+     "awardShowYear":2008
+  },
+  {
+     "tmdbId":8055,
+     "title":"The Reader",
+     "awardShowIndex":81,
+     "awardShowYear":2008
+  },
+  {
+     "tmdbId":12162,
+     "title":"The Hurt Locker",
+     "awardShowIndex":82,
+     "awardShowYear":2009
+  },
+  {
+     "tmdbId":19995,
+     "title":"Avatar",
+     "awardShowIndex":82,
+     "awardShowYear":2009
+  },
+  {
+     "tmdbId":22881,
+     "title":"The Blind Side",
+     "awardShowIndex":82,
+     "awardShowYear":2009
+  },
+  {
+     "tmdbId":17654,
+     "title":"District 9",
+     "awardShowIndex":82,
+     "awardShowYear":2009
+  },
+  {
+     "tmdbId":24684,
+     "title":"An Education",
+     "awardShowIndex":82,
+     "awardShowYear":2009
+  },
+  {
+     "tmdbId":16869,
+     "title":"Inglourious Basterds",
+     "awardShowIndex":82,
+     "awardShowYear":2009
+  },
+  {
+     "tmdbId":25793,
+     "title":"Precious: Based on the Novel 'Push' by Sapphire",
+     "awardShowIndex":82,
+     "awardShowYear":2009
+  },
+  {
+     "tmdbId":12573,
+     "title":"A Serious Man",
+     "awardShowIndex":82,
+     "awardShowYear":2009
+  },
+  {
+     "tmdbId":14160,
+     "title":"Up",
+     "awardShowIndex":82,
+     "awardShowYear":2009
+  },
+  {
+     "tmdbId":22947,
+     "title":"Up in the Air",
+     "awardShowIndex":82,
+     "awardShowYear":2009
+  },
+  {
+     "tmdbId":45269,
+     "title":"The King's Speech",
+     "awardShowIndex":83,
+     "awardShowYear":2010
+  },
+  {
+     "tmdbId":44115,
+     "title":"127 Hours",
+     "awardShowIndex":83,
+     "awardShowYear":2010
+  },
+  {
+     "tmdbId":44214,
+     "title":"Black Swan",
+     "awardShowIndex":83,
+     "awardShowYear":2010
+  },
+  {
+     "tmdbId":45317,
+     "title":"The Fighter",
+     "awardShowIndex":83,
+     "awardShowYear":2010
+  },
+  {
+     "tmdbId":27205,
+     "title":"Inception",
+     "awardShowIndex":83,
+     "awardShowYear":2010
+  },
+  {
+     "tmdbId":39781,
+     "title":"The Kids Are All Right",
+     "awardShowIndex":83,
+     "awardShowYear":2010
+  },
+  {
+     "tmdbId":37799,
+     "title":"The Social Network",
+     "awardShowIndex":83,
+     "awardShowYear":2010
+  },
+  {
+     "tmdbId":10193,
+     "title":"Toy Story 3",
+     "awardShowIndex":83,
+     "awardShowYear":2010
+  },
+  {
+     "tmdbId":44264,
+     "title":"True Grit",
+     "awardShowIndex":83,
+     "awardShowYear":2010
+  },
+  {
+     "tmdbId":39013,
+     "title":"Winter's Bone",
+     "awardShowIndex":83,
+     "awardShowYear":2010
+  },
+  {
+     "tmdbId":74643,
+     "title":"The Artist",
+     "awardShowIndex":84,
+     "awardShowYear":2011
+  },
+  {
+     "tmdbId":65057,
+     "title":"The Descendants",
+     "awardShowIndex":84,
+     "awardShowYear":2011
+  },
+  {
+     "tmdbId":64685,
+     "title":"Extremely Loud & Incredibly Close",
+     "awardShowIndex":84,
+     "awardShowYear":2011
+  },
+  {
+     "tmdbId":50014,
+     "title":"The Help",
+     "awardShowIndex":84,
+     "awardShowYear":2011
+  },
+  {
+     "tmdbId":44826,
+     "title":"Hugo",
+     "awardShowIndex":84,
+     "awardShowYear":2011
+  },
+  {
+     "tmdbId":59436,
+     "title":"Midnight in Paris",
+     "awardShowIndex":84,
+     "awardShowYear":2011
+  },
+  {
+     "tmdbId":60308,
+     "title":"Moneyball",
+     "awardShowIndex":84,
+     "awardShowYear":2011
+  },
+  {
+     "tmdbId":8967,
+     "title":"The Tree of Life",
+     "awardShowIndex":84,
+     "awardShowYear":2011
+  },
+  {
+     "tmdbId":57212,
+     "title":"War Horse",
+     "awardShowIndex":84,
+     "awardShowYear":2011
+  },
+  {
+     "tmdbId":68734,
+     "title":"Argo",
+     "awardShowIndex":85,
+     "awardShowYear":2012
+  },
+  {
+     "tmdbId":86837,
+     "title":"Amour",
+     "awardShowIndex":85,
+     "awardShowYear":2012
+  },
+  {
+     "tmdbId":84175,
+     "title":"Beasts of the Southern Wild",
+     "awardShowIndex":85,
+     "awardShowYear":2012
+  },
+  {
+     "tmdbId":68718,
+     "title":"Django Unchained",
+     "awardShowIndex":85,
+     "awardShowYear":2012
+  },
+  {
+     "tmdbId":82695,
+     "title":"Les Mis\u00e9rables",
+     "awardShowIndex":85,
+     "awardShowYear":2012
+  },
+  {
+     "tmdbId":87827,
+     "title":"Life of Pi",
+     "awardShowIndex":85,
+     "awardShowYear":2012
+  },
+  {
+     "tmdbId":72976,
+     "title":"Lincoln",
+     "awardShowIndex":85,
+     "awardShowYear":2012
+  },
+  {
+     "tmdbId":82693,
+     "title":"Silver Linings Playbook",
+     "awardShowIndex":85,
+     "awardShowYear":2012
+  },
+  {
+     "tmdbId":97630,
+     "title":"Zero Dark Thirty",
+     "awardShowIndex":85,
+     "awardShowYear":2012
+  },
+  {
+     "tmdbId":76203,
+     "title":"12 Years a Slave",
+     "awardShowIndex":86,
+     "awardShowYear":2013
+  },
+  {
+     "tmdbId":168672,
+     "title":"American Hustle",
+     "awardShowIndex":86,
+     "awardShowYear":2013
+  },
+  {
+     "tmdbId":109424,
+     "title":"Captain Phillips",
+     "awardShowIndex":86,
+     "awardShowYear":2013
+  },
+  {
+     "tmdbId":152532,
+     "title":"Dallas Buyers Club",
+     "awardShowIndex":86,
+     "awardShowYear":2013
+  },
+  {
+     "tmdbId":49047,
+     "title":"Gravity",
+     "awardShowIndex":86,
+     "awardShowYear":2013
+  },
+  {
+     "tmdbId":152601,
+     "title":"Her",
+     "awardShowIndex":86,
+     "awardShowYear":2013
+  },
+  {
+     "tmdbId":129670,
+     "title":"Nebraska",
+     "awardShowIndex":86,
+     "awardShowYear":2013
+  },
+  {
+     "tmdbId":205220,
+     "title":"Philomena",
+     "awardShowIndex":86,
+     "awardShowYear":2013
+  },
+  {
+     "tmdbId":106646,
+     "title":"The Wolf of Wall Street",
+     "awardShowIndex":86,
+     "awardShowYear":2013
+  },
+  {
+     "tmdbId":194662,
+     "title":"Birdman or (The Unexpected Virtue of Ignorance)",
+     "awardShowIndex":87,
+     "awardShowYear":2014
+  },
+  {
+     "tmdbId":190859,
+     "title":"American Sniper",
+     "awardShowIndex":87,
+     "awardShowYear":2014
+  },
+  {
+     "tmdbId":85350,
+     "title":"Boyhood",
+     "awardShowIndex":87,
+     "awardShowYear":2014
+  },
+  {
+     "tmdbId":120467,
+     "title":"The Grand Budapest Hotel",
+     "awardShowIndex":87,
+     "awardShowYear":2014
+  },
+  {
+     "tmdbId":205596,
+     "title":"The Imitation Game",
+     "awardShowIndex":87,
+     "awardShowYear":2014
+  },
+  {
+     "tmdbId":273895,
+     "title":"Selma",
+     "awardShowIndex":87,
+     "awardShowYear":2014
+  },
+  {
+     "tmdbId":266856,
+     "title":"The Theory of Everything",
+     "awardShowIndex":87,
+     "awardShowYear":2014
+  },
+  {
+     "tmdbId":244786,
+     "title":"Whiplash",
+     "awardShowIndex":87,
+     "awardShowYear":2014
+  },
+  {
+     "tmdbId":314365,
+     "title":"Spotlight",
+     "awardShowIndex":88,
+     "awardShowYear":2015
+  },
+  {
+     "tmdbId":318846,
+     "title":"The Big Short",
+     "awardShowIndex":88,
+     "awardShowYear":2015
+  },
+  {
+     "tmdbId":296098,
+     "title":"Bridge of Spies",
+     "awardShowIndex":88,
+     "awardShowYear":2015
+  },
+  {
+     "tmdbId":167073,
+     "title":"Brooklyn",
+     "awardShowIndex":88,
+     "awardShowYear":2015
+  },
+  {
+     "tmdbId":76341,
+     "title":"Mad Max: Fury Road",
+     "awardShowIndex":88,
+     "awardShowYear":2015
+  },
+  {
+     "tmdbId":286217,
+     "title":"The Martian",
+     "awardShowIndex":88,
+     "awardShowYear":2015
+  },
+  {
+     "tmdbId":281957,
+     "title":"The Revenant",
+     "awardShowIndex":88,
+     "awardShowYear":2015
+  },
+  {
+     "tmdbId":264644,
+     "title":"Room",
+     "awardShowIndex":88,
+     "awardShowYear":2015
+  },
+  {
+     "tmdbId":376867,
+     "title":"Moonlight",
+     "awardShowIndex":89,
+     "awardShowYear":2016
+  },
+  {
+     "tmdbId":329865,
+     "title":"Arrival",
+     "awardShowIndex":89,
+     "awardShowYear":2016
+  },
+  {
+     "tmdbId":393457,
+     "title":"Fences",
+     "awardShowIndex":89,
+     "awardShowYear":2016
+  },
+  {
+     "tmdbId":324786,
+     "title":"Hacksaw Ridge",
+     "awardShowIndex":89,
+     "awardShowYear":2016
+  },
+  {
+     "tmdbId":338766,
+     "title":"Hell or High Water",
+     "awardShowIndex":89,
+     "awardShowYear":2016
+  },
+  {
+     "tmdbId":381284,
+     "title":"Hidden Figures",
+     "awardShowIndex":89,
+     "awardShowYear":2016
+  },
+  {
+     "tmdbId":313369,
+     "title":"La La Land",
+     "awardShowIndex":89,
+     "awardShowYear":2016
+  },
+  {
+     "tmdbId":334543,
+     "title":"Lion",
+     "awardShowIndex":89,
+     "awardShowYear":2016
+  },
+  {
+     "tmdbId":334541,
+     "title":"Manchester by the Sea",
+     "awardShowIndex":89,
+     "awardShowYear":2016
+  },
+  {
+     "tmdbId":399055,
+     "title":"The Shape of Water",
+     "awardShowIndex":90,
+     "awardShowYear":2017
+  },
+  {
+     "tmdbId":398818,
+     "title":"Call Me by Your Name",
+     "awardShowIndex":90,
+     "awardShowYear":2017
+  },
+  {
+     "tmdbId":399404,
+     "title":"Darkest Hour",
+     "awardShowIndex":90,
+     "awardShowYear":2017
+  },
+  {
+     "tmdbId":374720,
+     "title":"Dunkirk",
+     "awardShowIndex":90,
+     "awardShowYear":2017
+  },
+  {
+     "tmdbId":419430,
+     "title":"Get Out",
+     "awardShowIndex":90,
+     "awardShowYear":2017
+  },
+  {
+     "tmdbId":391713,
+     "title":"Lady Bird",
+     "awardShowIndex":90,
+     "awardShowYear":2017
+  },
+  {
+     "tmdbId":400617,
+     "title":"Phantom Thread",
+     "awardShowIndex":90,
+     "awardShowYear":2017
+  },
+  {
+     "tmdbId":446354,
+     "title":"The Post",
+     "awardShowIndex":90,
+     "awardShowYear":2017
+  },
+  {
+     "tmdbId":359940,
+     "title":"Three Billboards Outside Ebbing, Missouri",
+     "awardShowIndex":90,
+     "awardShowYear":2017
+  },
+  {
+     "tmdbId":490132,
+     "title":"Green Book",
+     "awardShowIndex":91,
+     "awardShowYear":2018
+  },
+  {
+     "tmdbId":284054,
+     "title":"Black Panther",
+     "awardShowIndex":91,
+     "awardShowYear":2018
+  },
+  {
+     "tmdbId":487558,
+     "title":"BlacKkKlansman",
+     "awardShowIndex":91,
+     "awardShowYear":2018
+  },
+  {
+     "tmdbId":424694,
+     "title":"Bohemian Rhapsody",
+     "awardShowIndex":91,
+     "awardShowYear":2018
+  },
+  {
+     "tmdbId":375262,
+     "title":"The Favourite",
+     "awardShowIndex":91,
+     "awardShowYear":2018
+  },
+  {
+     "tmdbId":426426,
+     "title":"Roma",
+     "awardShowIndex":91,
+     "awardShowYear":2018
+  },
+  {
+     "tmdbId":332562,
+     "title":"A Star Is Born",
+     "awardShowIndex":91,
+     "awardShowYear":2018
+  },
+  {
+     "tmdbId":429197,
+     "title":"Vice",
+     "awardShowIndex":91,
+     "awardShowYear":2018
+  },
+  {
+     "tmdbId":496243,
+     "title":"Parasite",
+     "awardShowIndex":192,
+     "awardShowYear":2019
+  },
+  {
+     "tmdbId":359724,
+     "title":"Ford v Ferrari",
+     "awardShowIndex":192,
+     "awardShowYear":2019
+  },
+  {
+     "tmdbId":398978,
+     "title":"The Irishman",
+     "awardShowIndex":192,
+     "awardShowYear":2019
+  },
+  {
+     "tmdbId":515001,
+     "title":"Jojo Rabbit",
+     "awardShowIndex":192,
+     "awardShowYear":2019
+  },
+  {
+     "tmdbId":475557,
+     "title":"Joker",
+     "awardShowIndex":192,
+     "awardShowYear":2019
+  },
+  {
+     "tmdbId":331482,
+     "title":"Little Women",
+     "awardShowIndex":192,
+     "awardShowYear":2019
+  },
+  {
+     "tmdbId":492188,
+     "title":"Marriage Story",
+     "awardShowIndex":192,
+     "awardShowYear":2019
+  },
+  {
+     "tmdbId":530915,
+     "title":"1917",
+     "awardShowIndex":192,
+     "awardShowYear":2019
+  },
+  {
+     "tmdbId":466272,
+     "title":"Once Upon a Time in Hollywood",
+     "awardShowIndex":192,
+     "awardShowYear":2019
+  }
+]

@@ -6,14 +6,13 @@ const path = require('path');
 require('dotenv').config();
 var cors = require('cors')
 const movieSeedData = require('./seed-data/movies.json')
-const Movie = require('./models/movie')
+const Movie = require('./models/movie').Movie
 
 const app = express();
 
 app.use(cors())
 
 const port = process.env.PORT || 5000;
-console.log('DB:', process.env.DB)
 
 //connect to the database
 mongoose.connect(process.env.DB, { useNewUrlParser: true })
