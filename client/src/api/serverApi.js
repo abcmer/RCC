@@ -9,7 +9,19 @@ export const fetchMoviesData = async (user) => {
 }
 
 
-export const fetchUserData = async (userId) => {
-  const response = await axios.get(`${config.apiUrl}/api/users/?userId=${userId}`)
-  return response.data[0]
+export const findOrCreateUser = async (userId) => {
+  let response
+  response = await axios.get(`${config.apiUrl}/api/users/?userId=${userId}`)
+
+  if (response.data.length > 0) {
+    return response.data[0]
+  } else {
+    const data = {
+      "userId": `${userId}`,
+      "moviesWatched": {} 
+    }
+    response = await axios.post(`${config.apiUrl}/api/users`, data)
+    return response.data
+  }
+  
 }
