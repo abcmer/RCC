@@ -1,24 +1,24 @@
 version: '3'
 services:
   client:
-    container_name: rcq-client
-    image: rcq-client
+    container_name: rcc-client
+    image: rcc-client
     build: ./client
     ports:
       - "80:80"
   server:
     depends_on:
       - mongo
-    container_name: rcq-server
-    image: rcq-server
+    container_name: rcc-server
+    image: rcc-server
     build: ./server
     ports:
       - "5000:5000"
     environment: 
-      - DB=mongodb://mongo:27017/rcq
+      - DB=mongodb://mongo:27017/rcc
   mongo:
     image: "mongo"
-    container_name: "rcq-mongo"
+    container_name: "rcc-mongo"
     ports:
       - "27017:27017"
     volumes:
