@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abcmer/rcq.git"
+    "url": "git+https://github.com/abcmer/rcc.git"
   },
   "dependencies": {
     "@material-ui/icons": "^4.9.1",
@@ -28,7 +28,7 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/abcmer/rcq/issues"
+    "url": "https://github.com/abcmer/rcc/issues"
   },
-  "homepage": "https://github.com/abcmer/rcq#readme"
+  "homepage": "https://github.com/abcmer/rcc#readme"
 }
