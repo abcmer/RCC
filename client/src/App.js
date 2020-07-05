@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 
-import { fetchUserData, fetchMoviesData } from './api/serverApi'
+import { findOrCreateUser, fetchMoviesData } from './api/serverApi'
 import MovieList from './MovieList/MovieList'
 import TopNav from './TopNav/TopNav'
 import './App.css';
@@ -12,7 +12,7 @@ const App = () => {
   const [movies, setMovies] = useState([])
 
   const handleLogin = async (response) => {
-    const userData = await fetchUserData(response.profileObj.email)
+    const userData = await findOrCreateUser(response.profileObj.email)
     setUser({
       ...userData,
       ...response.profileObj,
