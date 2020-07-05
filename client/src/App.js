@@ -48,7 +48,7 @@ const App = () => {
   return(
     <div className='App'>
       <TopNav 
-        appName="Red Carpet Quest" 
+        appName="Red Carpet Challenge" 
         isAuthenticated={isAuthenticated}
         user={user}
         handleLogin={handleLogin}
