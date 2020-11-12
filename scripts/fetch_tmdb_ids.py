@@ -32,7 +32,7 @@ def main():
     movie_list = MovieList()
     movie_list.read_json_data('./input.json')
     movie_list.lookup_movie_ids()
-    movie_list.write_movies_to_file('./output.json')
+    movie_list.write_movies_to_file('./movies.json')
 
 
 class Movie(object):
