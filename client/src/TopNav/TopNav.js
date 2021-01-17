@@ -100,7 +100,7 @@ export default function TopNav(props) {
           </MenuItem>
           ) : (
             <GoogleLogin
-              clientId="31451977689-1do2q27eg40ad84j87f10ocepvqto5br.apps.googleusercontent.com"
+              clientId="31451977689-1do2q27eg40ad84j87f10ocepvqto5br.apps.googleusercontent.com"    
               buttonText="Login"
               onSuccess={handleLogin}
               onFailure={handleLogin}

@@ -1,5 +1,5 @@
 echo 'Building docker images'
-docker-compose build
+docker-compose build --no-cache
 export git_commit=$(git rev-parse HEAD)
 
 echo Tagging rcc-server with tag $git_commit
