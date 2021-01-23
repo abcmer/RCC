@@ -21,15 +21,6 @@ import Switch from '@material-ui/core/Switch';
 import DeleteIcon from '@material-ui/icons/Delete';
 import FilterListIcon from '@material-ui/icons/FilterList';
 
-function createData(title, awardShowYear) {
-  return { title, awardShowYear};
-}
-
-// const rows = [
-//   createData('Shawshank Redemption', 1994),
-//   createData('The Matrix', 2000),
-// ];
-
 function descendingComparator(a, b, orderBy) {
   if (b[orderBy] < a[orderBy]) {
     return -1;
@@ -136,7 +127,7 @@ const useToolbarStyles = makeStyles((theme) => ({
 
 const EnhancedTableToolbar = (props) => {
   const classes = useToolbarStyles();
-  const { numSelected } = props;
+  const { numSelected, totalFilmCount } = props;
 
   return (
     <Toolbar
@@ -146,26 +137,12 @@ const EnhancedTableToolbar = (props) => {
     >
       {numSelected > 0 ? (
         <Typography className={classes.title} color="inherit" variant="subtitle1" component="div">
-          {numSelected} selected
+          {numSelected} / {totalFilmCount} ({(numSelected / totalFilmCount * 100).toFixed(0)}%)
         </Typography>
       ) : (
         <Typography className={classes.title} variant="h6" id="tableTitle" component="div">
           Best Picture Nominees
         </Typography>
-      )}
-
-      {numSelected > 0 ? (
-        <Tooltip title="Delete">
-          <IconButton aria-label="delete">
-            <DeleteIcon />
-          </IconButton>
-        </Tooltip>
-      ) : (
-        <Tooltip title="Filter list">
-          <IconButton aria-label="filter list">
-            <FilterListIcon />
-          </IconButton>
-        </Tooltip>
       )}
     </Toolbar>
   );
@@ -173,6 +150,7 @@ const EnhancedTableToolbar = (props) => {
 
 EnhancedTableToolbar.propTypes = {
   numSelected: PropTypes.number.isRequired,
+  totalFilmCount: PropTypes.number.isRequired
 };
 
 const useStyles = makeStyles((theme) => ({
@@ -201,10 +179,10 @@ const useStyles = makeStyles((theme) => ({
 
 export default function MovieList(props) {
   const {movies} = props;
-  console.log(movies.length)
   let rows = [];
   movies.length > 0 ? rows = movies.map(m => {
     return {
+      id: m.tmdbId,
       title: m.title,
       awardShowYear: m.awardShowYear
     }
@@ -226,7 +204,7 @@ export default function MovieList(props) {
 
   const handleSelectAllClick = (event) => {
     if (event.target.checked) {
-      const newSelecteds = rows.map((n) => n.name);
+      const newSelecteds = rows.map((n) => n.id);
       setSelected(newSelecteds);
       return;
     }
@@ -273,7 +251,7 @@ export default function MovieList(props) {
   return (
     <div className={classes.root}>
       <Paper className={classes.paper}>
-        <EnhancedTableToolbar numSelected={selected.length} />
+        <EnhancedTableToolbar numSelected={selected.length} totalFilmCount={movies.length}/>
         <TableContainer>
           <Table
             className={classes.table}
@@ -293,17 +271,17 @@ export default function MovieList(props) {
             <TableBody>
               {stableSort(rows, getComparator(order, orderBy))
                 .map((row, index) => {
-                  const isItemSelected = isSelected(row.name);
+                  const isItemSelected = isSelected(row.id);
                   const labelId = `enhanced-table-checkbox-${index}`;
 
                   return (
                     <TableRow
                       hover
-                      onClick={(event) => handleClick(event, row.name)}
+                      onClick={(event) => handleClick(event, row.id)}
                       role="checkbox"
                       aria-checked={isItemSelected}
                       tabIndex={-1}
-                      key={row.title}
+                      key={row.id}
                       selected={isItemSelected}
                     >
                       <TableCell padding="checkbox">
