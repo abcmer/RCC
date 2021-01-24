@@ -11,7 +11,6 @@ const getUsers = async (userId) => {
     from users
     where id=$1;
   `
-    console.log('query', query)
   try {
     const [data] = await db.multi(query, userId);
     return humps.camelizeKeys(data)

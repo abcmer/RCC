@@ -179,7 +179,6 @@ const useStyles = makeStyles((theme) => ({
 
 export default function MovieList(props) {
   const {user, movies, moviesWatched, setMoviesWatched} = props;
-  console.log('moviesWatched', moviesWatched)
   let rows = [];
   movies.length > 0 ? rows = movies.map(m => {
     return {
@@ -212,7 +211,6 @@ export default function MovieList(props) {
   };
 
   const handleClick = (event, tmdbId) => {
-    console.log('tmdbId', tmdbId)
     const selectedIndex = moviesWatched.indexOf(tmdbId);
     let newSelected = [];
 

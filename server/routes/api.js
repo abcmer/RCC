@@ -11,14 +11,13 @@ router.get('/', (req, res, next) => {
 router.get('/movies', async (req, res, next) => {
   const {userId} = req.query;
   const data = await getAllMovies(userId)
-  console.log('data', data)
   res.json(data)
 })
 
 router.get('/users/', async (req, res, next) => {
   const {userId} = req.query;
   const data = await getUsers(userId)
-  console.log('data', data)
+
   res.json(data)  
 })
 
@@ -36,7 +35,6 @@ router.put('/users/:userId', async (req, res, next) => {
   const update = req.body;
   try { 
     let doc = await User.findOneAndUpdate(filter, update);
-    console.log('doc', doc)
     res.json(await User.findOneAndUpdate(filter, update))
   } catch (error) {
     next(error)

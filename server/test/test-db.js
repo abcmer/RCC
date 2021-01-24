@@ -4,7 +4,6 @@ var db = pgp('postgres://postgres:password@localhost:5432/test2')
 const test = async () => {
   try {
     const [data] = await db.multi('SELECT * FROM table1');
-    console.log(data)
   } catch (error) {
     console.log(error)
   }

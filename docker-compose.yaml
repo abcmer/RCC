@@ -15,7 +15,7 @@ services:
     ports:
       - "5000:5000"
     environment: 
-      - DB=mongodb://mongo:27017/rcc      
+      - DB=postgres://postgres:password@postgres:5432/rcc
   postgres:
     image: "postgres:13.1-alpine"
     container_name: "rcc-postgres"

@@ -44,12 +44,12 @@ const createTables = () => {
 const insertMovieData = () => {
   db.tx(t => {
     const queries = movieSeedData.map(l => {
-        return t.none('INSERT INTO movies(tmdb_id, title, award_show_index, award_show_year) VALUES(${tmdbId}, ${title}, ${awardShowIndex}, ${awardShowYear})', l);
+        return t.none('UPSERT INTO movies(tmdb_id, title, award_show_index, award_show_year) VALUES(${tmdbId}, ${title}, ${awardShowIndex}, ${awardShowYear}) ON CONFLICT (tmdb_id) DO NOTHING;', l);
     });
     return t.batch(queries);
   })
     .then(data => {
-      console.log('data', data)
+      console.log(`inserted ${data.length} rows into table movies`)
         // data = array of null-s
     })
     .catch(error => {

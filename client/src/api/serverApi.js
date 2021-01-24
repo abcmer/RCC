@@ -5,9 +5,7 @@ import config from '../config';
 export const fetchMoviesData = async (userId) => {
   console.log('FETCHING MOVIE DATA')
   const url = `${config.apiUrl}/api/movies?userId=${userId || null}`
-  console.log('url', url)
   const response = await axios.get(url)
-  console.log('resonse.data', response.data)
   return response.data
 }
 

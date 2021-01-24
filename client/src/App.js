@@ -34,11 +34,8 @@ const App = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      console.log(user)
       const movies = await fetchMoviesData(user.id || null)
-      console.log('movies', movies)
       setMoviesWatched(movies.filter(m => m.checked == true).map(m => m.tmdbId))
-      console.log(movies.filter(m => m.checked == true).map(m => m.tmdbId))
       setMovies(movies)
     }
     fetchData()    

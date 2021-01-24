@@ -25,7 +25,6 @@ const getAllMovies = async (userId) => {
       ) um
     on m.tmdb_id = um.tmdb_id;
     `
-    console.log('query', query)
   try {
     const [data] = await db.multi(query, userId);
     return humps.camelizeKeys(data)
