@@ -7,7 +7,8 @@ router.get('/', (req, res, next) => {
 });
 
 router.get('/movies', async (req, res, next) => {
-  const data = await getAllMovies()
+  const {userId} = req.query;
+  const data = await getAllMovies(userId)
   console.log('data', data)
   res.json(data)
 })
