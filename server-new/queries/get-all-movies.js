@@ -21,17 +21,17 @@ const getAllMovies = async (userId) => {
     left join (
       select *
       from user_movies
-      where user_id = ${userId}
+      where user_id = $1
       ) um
     on m.tmdb_id = um.tmdb_id;
     `
     console.log('query', query)
   try {
-    const [data] = await db.multi(query);
+    const [data] = await db.multi(query, userId);
     return humps.camelizeKeys(data)
   } catch (error) {
     console.log(error)
   }
 }
 
-module.exports = {getAllMovies}
+module.exports = getAllMovies

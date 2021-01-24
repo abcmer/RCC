@@ -14,15 +14,14 @@ const createTables = () => {
     `,
     `
     create table if not exists users (
-      id SERIAL PRIMARY KEY,
-      email VARCHAR (255),
+      id VARCHAR (255) PRIMARY KEY,
       created_at TIMESTAMP NOT NULL
     );
     `,
     `
     create table if not exists user_movies (
       id SERIAL PRIMARY KEY,
-      user_id INT,
+      user_id VARCHAR(255),
       tmdb_id int,
       created_at TIMESTAMP,
       CONSTRAINT fk_user

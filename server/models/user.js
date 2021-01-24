@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 const Movie = require('./movie').Movie
+const MovieCheckSchema = require('./movieCheck').MovieCheckSchema
 const Schema = mongoose.Schema;
 
 const UserSchema = new Schema({
@@ -8,10 +9,7 @@ const UserSchema = new Schema({
     unique: true,
     required: [true, "userId field is required"]
   },
-  moviesWatched: {
-    type: Map,
-    of: Boolean
-  }
+  moviesWatched: [MovieCheckSchema]
 })
 
 const User = mongoose.model('User', UserSchema);

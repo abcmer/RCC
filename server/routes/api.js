@@ -13,11 +13,34 @@ router.post('/movies', (req, res, next) => {
     .catch(next)
 })
 
-router.get('/movies', (req, res, next) => {
-  Movie.find({})
-    .then(data => res.json(data))
-    .catch(next)
-})
+router.get('/movies', async (req, res, next) => {
+  // Get User Data if userId provided as filter
+  const {userId} = req.query;
+  let userData
+  try {
+    let userData = User.find({userId})
+    console.log('userData', userData.moviesWatched)
+    res.json({})
+
+  } catch (error) {
+    console.log(error)
+  }
+  // User.find({userId})
+  //   .then(userData => {
+  //     Movie.find({})
+  //     .then(movieData => {
+  //       userData.moviesWatched.forEach(mw => {
+  //         movieData.find(m => {
+  //           m.checked == true
+  //         })
+  //       })
+  //       res.json(movieData)
+  //     })
+  //     .catch(next)
+  //   })
+  //   .catch(next)
+  })
+
 
 router.post('/users', (req, res, next) => {
   User.create(req.body)
@@ -29,9 +52,10 @@ router.put('/users/:userId', async (req, res, next) => {
   const {userId} = req.params;
   const filter = { _id: userId };
   const update = req.body;
-  try {
+  try { 
     let doc = await User.findOneAndUpdate(filter, update);
-    res.json(doc)
+    console.log('doc', doc)
+    res.json(await User.findOneAndUpdate(filter, update))
   } catch (error) {
     next(error)
   }

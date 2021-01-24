@@ -178,7 +178,8 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function MovieList(props) {
-  const {movies} = props;
+  const {user, movies, moviesWatched, setMoviesWatched} = props;
+  console.log('moviesWatched', moviesWatched)
   let rows = [];
   movies.length > 0 ? rows = movies.map(m => {
     return {
@@ -191,7 +192,6 @@ export default function MovieList(props) {
   const classes = useStyles();
   const [order, setOrder] = React.useState('asc');
   const [orderBy, setOrderBy] = React.useState('awardShowYear');
-  const [selected, setSelected] = React.useState([]);
   const [page, setPage] = React.useState(0);
   const [dense, setDense] = React.useState(false);
   const [rowsPerPage, setRowsPerPage] = React.useState(5);
@@ -205,30 +205,31 @@ export default function MovieList(props) {
   const handleSelectAllClick = (event) => {
     if (event.target.checked) {
       const newSelecteds = rows.map((n) => n.id);
-      setSelected(newSelecteds);
+      setMoviesWatched(newSelecteds);
       return;
     }
-    setSelected([]);
+    setMoviesWatched([]);
   };
 
-  const handleClick = (event, name) => {
-    const selectedIndex = selected.indexOf(name);
+  const handleClick = (event, tmdbId) => {
+    console.log('tmdbId', tmdbId)
+    const selectedIndex = moviesWatched.indexOf(tmdbId);
     let newSelected = [];
 
     if (selectedIndex === -1) {
-      newSelected = newSelected.concat(selected, name);
+      newSelected = newSelected.concat(moviesWatched, tmdbId);
     } else if (selectedIndex === 0) {
-      newSelected = newSelected.concat(selected.slice(1));
-    } else if (selectedIndex === selected.length - 1) {
-      newSelected = newSelected.concat(selected.slice(0, -1));
+      newSelected = newSelected.concat(moviesWatched.slice(1));
+    } else if (selectedIndex === moviesWatched.length - 1) {
+      newSelected = newSelected.concat(moviesWatched.slice(0, -1));
     } else if (selectedIndex > 0) {
       newSelected = newSelected.concat(
-        selected.slice(0, selectedIndex),
-        selected.slice(selectedIndex + 1),
+        moviesWatched.slice(0, selectedIndex),
+        moviesWatched.slice(selectedIndex + 1),
       );
     }
 
-    setSelected(newSelected);
+    setMoviesWatched(newSelected);
   };
 
   const handleChangePage = (event, newPage) => {
@@ -244,14 +245,14 @@ export default function MovieList(props) {
     setDense(event.target.checked);
   };
 
-  const isSelected = (name) => selected.indexOf(name) !== -1;
+  const isSelected = (name) => moviesWatched.indexOf(name) !== -1;
 
   const emptyRows = rowsPerPage - Math.min(rowsPerPage, rows.length - page * rowsPerPage);
 
   return (
     <div className={classes.root}>
       <Paper className={classes.paper}>
-        <EnhancedTableToolbar numSelected={selected.length} totalFilmCount={movies.length}/>
+        <EnhancedTableToolbar numSelected={moviesWatched.length} totalFilmCount={movies.length}/>
         <TableContainer>
           <Table
             className={classes.table}
@@ -261,10 +262,10 @@ export default function MovieList(props) {
           >
             <EnhancedTableHead
               classes={classes}
-              numSelected={selected.length}
+              numSelected={moviesWatched.length}
               order={order}
               orderBy={orderBy}
-              onSelectAllClick={handleSelectAllClick}
+              // onSelectAllClick={handleSelectAllClick}
               onRequestSort={handleRequestSort}
               rowCount={rows.length}
             />

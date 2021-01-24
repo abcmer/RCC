@@ -8,20 +8,22 @@ services:
       - "80:80"
   server:
     depends_on:
-      - mongo
+      - postgres
     container_name: rcc-server
     image: rcc-server
     build: ./server
     ports:
       - "5000:5000"
     environment: 
-      - DB=mongodb://mongo:27017/rcc
-  mongo:
-    image: "mongo"
-    container_name: "rcc-mongo"
+      - DB=mongodb://mongo:27017/rcc      
+  postgres:
+    image: "postgres:13.1-alpine"
+    container_name: "rcc-postgres"
     ports:
-      - "27017:27017"
+      - "5432:5432"
     volumes:
-    - data-volume:/data/db
+      - postgres:/var/rcc/dbdata
+    environment:
+      - POSTGRES_PASSWORD=password
 volumes:
-  data-volume:
+  postgres:

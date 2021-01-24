@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 
-import { findOrCreateUser, fetchMoviesData } from './api/serverApi'
+import { findOrCreateUser, fetchMoviesData, updateUserData } from './api/serverApi'
 import MovieList from './MovieList/MovieList'
 import TopNav from './TopNav/TopNav'
 import './App.css';
@@ -9,6 +9,7 @@ import './App.css';
 const App = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false)
   const [user, setUser] = useState({})
+  const [moviesWatched, setMoviesWatched] = useState([])
   const [movies, setMovies] = useState([])
 
   const handleLogin = async (response) => {
@@ -20,30 +21,28 @@ const App = () => {
     })
   }
 
-  const markMoviesWatched = () => {
-    const newMovies = movies.map(m => {
-      const id = m._id;
-      let hasSeen = ''
-      if (user.moviesWatched[id]) {
-        hasSeen = 'X'
-      }
-      m[user.givenName] = hasSeen;  
-      return m 
-    })  
-    setMovies(newMovies)
+  const getMoviesWatched = async (user) => {
+    if (!user) {
+      return []
+    }
+    if (user.moviesWatched) {
+      return user.moviesWatched.map(m => m.tmdbId)
+    } else {
+      return []
+    }
   }
 
   useEffect(() => {
     const fetchData = async () => {
-      const movies = await fetchMoviesData(user)
+      console.log(user)
+      const movies = await fetchMoviesData(user.id || null)
+      console.log('movies', movies)
+      setMoviesWatched(movies.filter(m => m.checked == true).map(m => m.tmdbId))
+      console.log(movies.filter(m => m.checked == true).map(m => m.tmdbId))
       setMovies(movies)
     }
     fetchData()    
-  }, [])  
-
-  useEffect(() => {
-    markMoviesWatched()
-  }, [user])
+  }, [user])  
 
   return(
     <div className='App'>
@@ -53,7 +52,12 @@ const App = () => {
         user={user}
         handleLogin={handleLogin}
       />
-      <MovieList user={user} movies={movies}/>
+      <MovieList 
+        user={user} 
+        movies={movies} 
+        moviesWatched={moviesWatched}
+        setMoviesWatched={setMoviesWatched}
+        />
     </div>
     )
 }
