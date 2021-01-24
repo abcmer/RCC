@@ -1,34 +1,27 @@
 {
-  "name": "server",
-  "version": "0.1.1",
+  "name": "rcc-server",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "start-watch": "nodemon index.js",
-    "dev": "concurrently \"yarn run start-watch\" \"cd web && yarn start\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/abcmer/rcc.git"
-  },
-  "dependencies": {
-    "@material-ui/icons": "^4.9.1",
-    "@material-ui/styles": "^4.9.10",
-    "cors": "^2.8.5",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "mongoose": "^5.9.9"
-  },
-  "devDependencies": {
-    "concurrently": "^5.1.0",
-    "nodemon": "^2.0.3"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/abcmer/rcc/issues"
   },
-  "homepage": "https://github.com/abcmer/rcc#readme"
+  "homepage": "https://github.com/abcmer/rcc#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "humps": "^2.0.1",
+    "pg-promise": "^10.9.1"
+  }
 }
