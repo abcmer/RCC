@@ -4,9 +4,10 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+const userData = JSON.parse(window.localStorage.user)
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App userData={userData}/>
   </React.StrictMode>,
   document.getElementById('root')
 );

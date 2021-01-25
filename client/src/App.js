@@ -1,41 +1,30 @@
 import React, {useState, useEffect} from 'react';
-
-import { findOrCreateUser, fetchMoviesData, updateUserData } from './api/serverApi'
+import { findOrCreateUser, fetchMoviesData } from './api/serverApi'
 import MovieList from './MovieList/MovieList'
 import TopNav from './TopNav/TopNav'
 import './App.css';
 
-
-const App = () => {
-  const [isAuthenticated, setIsAuthenticated] = useState(false)
-  const [user, setUser] = useState({})
+const App = (props) => {
+  const {userData} = props;
+  const [user, setUser] = useState(userData || {})
   const [moviesWatched, setMoviesWatched] = useState([])
   const [movies, setMovies] = useState([])
 
   const handleLogin = async (response) => {
     const userData = await findOrCreateUser(response.profileObj.email)
-    setUser({
+    const data = {
       ...userData,
       ...response.profileObj,
       ...response.tokenObj,      
-    })
-  }
-
-  const getMoviesWatched = async (user) => {
-    if (!user) {
-      return []
     }
-    if (user.moviesWatched) {
-      return user.moviesWatched.map(m => m.tmdbId)
-    } else {
-      return []
-    }
+    setUser(data)
+    window.localStorage.setItem(user, JSON.stringify(data))
   }
 
   useEffect(() => {
     const fetchData = async () => {
       const movies = await fetchMoviesData(user.id || null)
-      setMoviesWatched(movies.filter(m => m.checked == true).map(m => m.tmdbId))
+      setMoviesWatched(movies.filter(m => m.checked === true).map(m => m.tmdbId))
       setMovies(movies)
     }
     fetchData()    
@@ -45,7 +34,7 @@ const App = () => {
     <div className='App'>
       <TopNav 
         appName="Red Carpet Challenge" 
-        isAuthenticated={isAuthenticated}
+        isAuthenticated={Boolean(user)}
         user={user}
         handleLogin={handleLogin}
       />

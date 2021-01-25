@@ -13,13 +13,9 @@ import TableSortLabel from '@material-ui/core/TableSortLabel';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Paper from '@material-ui/core/Paper';
-import Checkbox from '@material-ui/core/Checkbox';
-import IconButton from '@material-ui/core/IconButton';
-import Tooltip from '@material-ui/core/Tooltip';
+import Checkbox from '@material-ui/core/Checkbox';  
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Switch from '@material-ui/core/Switch';
-import DeleteIcon from '@material-ui/icons/Delete';
-import FilterListIcon from '@material-ui/icons/FilterList';
 
 function descendingComparator(a, b, orderBy) {
   if (b[orderBy] < a[orderBy]) {
@@ -178,7 +174,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function MovieList(props) {
-  const {user, movies, moviesWatched, setMoviesWatched} = props;
+  const {movies, moviesWatched, setMoviesWatched} = props;
   let rows = [];
   movies.length > 0 ? rows = movies.map(m => {
     return {
@@ -263,7 +259,7 @@ export default function MovieList(props) {
               numSelected={moviesWatched.length}
               order={order}
               orderBy={orderBy}
-              // onSelectAllClick={handleSelectAllClick}
+              onSelectAllClick={handleSelectAllClick}
               onRequestSort={handleRequestSort}
               rowCount={rows.length}
             />
